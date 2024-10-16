@@ -12,12 +12,15 @@ export default defineConfig({
   sitemap: {
     hostname: "https://scg-docs.owu.one"
   },
+  srcExclude: [
+    '**/README.md',
+    '**/LICENSE.md'
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/favicon.svg",
     siteTitle: false,
     nav: [
-      { text: '关于', link: '/about' },
       { text: '链接',
         items: [
           { text: 'Owu Social', link: 'https://scg.owu.one' },
@@ -35,7 +38,7 @@ export default defineConfig({
         items: [
           { text: '关于本站', link: '/about' },
           { text: '实例规则',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '内容规范', link: '/rules/content' },
               { text: '特殊账户', link: '/rules/special-accounts' },
@@ -48,7 +51,7 @@ export default defineConfig({
               { text: '用户协议', link: '/terms/user' },
               { text: '隐私政策', link: '/terms/privacy' },
               { text: '数据保护', link: '/terms/data' },
-              { text: '核查与申诉', link: '/terms/review' },
+              { text: '核查与申诉', link: '/terms/moderation' },
               { text: '信息披露', link: '/terms/disclosure' },
               { text: '服务承诺', link: '/terms/commitment' }
             ]
@@ -66,6 +69,7 @@ export default defineConfig({
           { text: '发现内容', link: '/faq/discover' },
           { text: '发帖与互动', link: '/faq/posting' },
           { text: '搜素', link: '/faq/search' },
+          { text: '静音、过滤与屏蔽', link: '/faq/filter' },
           { text: '功能支持', link: '/faq/feature' },
           { text: '隐私与安全', link: '/faq/privacy-and-security' }
         ]
@@ -75,14 +79,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '设置面板简介', link: '/settings/overview' },
-          { text: '自定义样式（高级）', link: '/settings/custom-css' },
+          { text: '自定义样式(高级)', link: '/settings/custom-css' },
           { text: '账户迁移', link: '/settings/migration' },
           { text: '互动控制', link: '/settings/interaction-control' },
         ]
       },
       {
         text: '周边服务',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '站内机器人', link: '/services/bots' },
           { text: 'Owu Write', link: '/services/write' },
@@ -92,14 +96,14 @@ export default defineConfig({
       },
       {
         text: '开发',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'API', link: '/dev/api' }
         ]
       },
       {
         text: '其他',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '相关实例', link: '/instances' },
           { text: '更新日志', link: '/changelog' },
@@ -131,7 +135,19 @@ export default defineConfig({
             buttonAriaLabel: "搜索"
           },
           modal: {
-            
+            displayDetails: "显示详情",
+            resetButtonTitle: "重置搜索",
+            backButtonTitle: "关闭搜索",
+            noResultsText: "没有找到结果",
+            footer: {
+              selectText: "选择",
+              selectKeyAriaLabel: "输入",
+              navigateText: "导航",
+              navigateUpKeyAriaLabel: "上箭头",
+              navigateDownKeyAriaLabel: "下箭头",
+              closeText: "关闭",
+              closeKeyAriaLabel: "esc"
+            }
           }
         }
       }
@@ -144,7 +160,7 @@ export default defineConfig({
     // docFooter: {}
     outline: {
       level: 'deep',
-      label: '目录'
+      label: '概要'
     },
     footer: {
       message: '本页面内容采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 协议授权',

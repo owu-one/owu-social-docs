@@ -5,7 +5,7 @@ description: Owu Social 的功能支持情况
 
 # 功能支持
 
-Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件（2021年2月开始开发）,目前处于 测试（Beta）阶段,还在活跃开发中。
+Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件(2021年2月开始开发),目前处于 测试(Beta)阶段,还在活跃开发中。
 
 ## 尚未支持的功能
 
@@ -18,7 +18,7 @@ Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件（2021年2月
 
 | 功能 | 支持计划 |
 | --- | --- |
-| 在主页显示转发 | 即将发布（已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346),预计在 v0.18 发布） |
+| 在主页显示转发 | 即将发布(已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346),预计在 v0.18 发布) |
 | 编辑贴文 | 预计 2024 年底到 2025 年初发布, 具体参见 [Issue #1990](https://github.com/superseriousbusiness/gotosocial/issues/1990) |
 | 通知推送 | N/A, 具体参见 [Issue #1350](https://github.com/superseriousbusiness/gotosocial/issues/1350) |
 | 自定义表情回应 | N/A |
@@ -31,7 +31,7 @@ Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件（2021年2月
 | HTML格式的嘟文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
 | 改变媒体附件缩略图的焦点 | N/A, 具体参见 [Issue #2593](https://github.com/superseriousbusiness/gotosocial/issues/2593) |
 | 全站公告 | N/A, 具体参见 [Issue #2621](https://github.com/superseriousbusiness/gotosocial/issues/2621) |
-| 更广泛的搜索范围（搜索收藏、点赞、转嘟） | N/A, 具体参见 [Issue #2935](https://github.com/superseriousbusiness/gotosocial/issues/2935) |
+| 更广泛的搜索范围(搜索收藏、点赞、转嘟) | N/A, 具体参见 [Issue #2935](https://github.com/superseriousbusiness/gotosocial/issues/2935) |
 | 中文搜索优化 | N/A |
 | 通知分组 | N/A, 具体参见 [Issue #3408](https://github.com/superseriousbusiness/gotosocial/issues/3408) |
 
@@ -42,3 +42,14 @@ Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件（2021年2月
 | 功能 | 概述 |
 | --- | --- |
 | [互动控制](/settings/interaction-control.md) | 精准控制谁可以转发、点赞或回复你的贴文。|
+
+## 不会支持的功能
+
+::: tip 说明
+此处列出的是被 GoToSocial 明确在今后一段时间内不会支持的功能。
+:::
+
+| 功能 | 说明 |
+| --- | --- |
+| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631) |
+| 跨实例交互引导 | GoToSocial 提供的网页是静态的，仅供浏览。参见 [Issue #1895](https://github.com/superseriousbusiness/gotosocial/issues/1895) |

@@ -13,10 +13,10 @@ description: Owu Social 发帖与互动流程
 
 Owu Social 提供类似 Mastodon 的贴文可见性设置。从最私密到最不私密的顺序如下：
 
-- 私信（仅提及）
+- 私信(仅提及)
 - 仅限互关
 - 仅限粉丝
-- 不列出（也称“悄悄公开”）
+- 不列出(也称“悄悄公开”)
 - 公开
 
 无论你为贴文选择何种可见性，Owu Social 都会尽力确保你的贴文不会出现在你已屏蔽的实例用户或直接屏蔽的用户面前。
@@ -25,9 +25,9 @@ Owu Social 提供类似 Mastodon 的贴文可见性设置。从最私密到最�
 
 请注意，虽然 Owu Social 非常严格地遵守这些隐私设置，但其他服务器实现可能并不可靠：在 Fediverse 上有潜在的恶意行为者。和任何社交媒体一样，你应该谨慎考虑你发布的内容及其接受不了对象。
 
-### 私信（仅提及）
+### 私信(仅提及)
 
-`私信（仅提及）` 可见的贴文仅对作者和贴文中提到的用户可见。例如：
+`私信(仅提及)` 可见的贴文仅对作者和贴文中提到的用户可见。例如：
 
 ```text
 嘿 @whoever@example.org，这是一条私密/直接消息！只有我们能看到！
@@ -66,7 +66,7 @@ Owu Social 提供类似 Mastodon 的贴文可见性设置。从最私密到最�
 
 ### 不列出
 
-`不列出`（有时称为 `悄悄公开`）的贴文是半公开的。它们会被发送给所有关注你的人，并可以被转发到不关注你的人时间线上，但不会出现在跨站或本站时间线上，默认也不会出现在你的公开资料页（通过浏览器访问你的账户时看到的页面）上。
+`不列出`(有时称为 `悄悄公开`)的贴文是半公开的。它们会被发送给所有关注你的人，并可以被转发到不关注你的人时间线上，但不会出现在跨站或本站时间线上，默认也不会出现在你的公开资料页(通过浏览器访问你的账户时看到的页面)上。
 
 不列出的贴文适用于希望允许传播但不希望立即被所有人看到的内容。这也适用于想发布类似公开的贴文，但不想占用跨站/本站时间线的情况。
 
@@ -101,9 +101,9 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 
 发贴时，你可以把媒体文件附加到贴文中，大多数客户端将会在贴文底部以图库视图呈现这些文件。在Owu Social，你可以在单条贴文中附加最多 9 个媒体文件，但有的客户端可能不支持添加这么多的媒体附件。媒体附件的大小限制为 100MB。
 
-### 图片描述（alt 文本）
+### 图片描述(alt 文本)
 
-当你在贴文中附加媒体（如图片或视频）时，大多数客户端会提供选项来描述图片或视频的内容。该描述将作为 alt 文本提供给所有查看媒体的用户使用。这对所有人都有帮助，特别是对盲人和低视力人士。如果没有图片描述，媒体的内容及其附加至某篇贴文的原因可能不清楚。
+当你在贴文中附加媒体(如图片或视频)时，大多数客户端会提供选项来描述图片或视频的内容。该描述将作为 alt 文本提供给所有查看媒体的用户使用。这对所有人都有帮助，特别是对盲人和低视力人士。如果没有图片描述，媒体的内容及其附加至某篇贴文的原因可能不清楚。
 
 撰写优秀的图片描述可能很难，但它是值得的！
 
@@ -119,13 +119,13 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 - 图片或视频的颜色和像素信息。
 - 图片或视频的尺寸和方向。
 - 日期和时间信息。
-- 位置信息（如果启用）。
+- 位置信息(如果启用)。
 
 这些 Exif 数据可以帮助你整理自己的照片。然而显而易见的是，这些EXIF信息随着媒体附件一起发布会带来[隐私和安全隐患](https://en.wikipedia.org/wiki/Exif#Privacy_and_security)，尤其是位置信息。如果你曾在 Facebook 等平台上发布过图片，可能会好奇 Facebook 如何知道图片的拍摄地点和时间；这主要得益于嵌入在 Exif 数据中的位置信息和时间戳，Facebook 从图像中读取这些信息以便整理“你去过的地方”的时间线。
 
 为了避免泄露位置信息，Owu Social 在上传媒体时通过清空 Exif 数据点尽力删除 Exif 信息。
 
-::: warn 提示
+::: warning 提示
 即使你在上传之前完全删除图片或视频中的所有 Exif 元数据，不怀好意的人仍有多种方法可以根据媒体内容推测你的位置信息。
 如果你属于一个对保密有运营需求的组织，或者你正在被跟踪或监视，建议考虑不要发布可能包含你所在位置线索的媒体。
 :::
@@ -236,7 +236,7 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 
 > 嗨 <span class="h-card"><a href="https://example.org/@some_account" class="u-url mention">@<span>some_account</span></a></span> 最近怎么样？
 
-提及本站账户（即你的实例上的账户）时，可以省略提及的第二部分。如果你的实例上有名为 `local_account_person` 的账户，你可以直接这样提及：
+提及本站账户(即你的实例上的账户)时，可以省略提及的第二部分。如果你的实例上有名为 `local_account_person` 的账户，你可以直接这样提及：
 
 ```text
 嘿 @local_account_person 你是我的网上邻居
@@ -245,18 +245,18 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 这将变为：
 
 ```html
-嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的邻居
+嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的网上邻居
 ```
 
 并呈现为：
 
-> 嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的邻居
+> 嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的网上邻居
 
 ### 话题标签
 
 你可以在贴文中使用一个或多个话题标签来指示主题，以便可以将贴文与使用相同标签的其他贴文一起分组，以帮助发现你的贴文。
 
-大多数 ActivityPub 服务器实现（如 Mastodon）仅将使用标签的**公开**贴文分组，但这并不保证。因此，通常来说，最好仅在希望贴文能够比否则传播更广的情况下使用标签。例如，`#introduction` 标签通常用于希望向 Fediverse 自我介绍的新账户！
+大多数 ActivityPub 服务器实现(如 Mastodon)仅将使用标签的**公开**贴文分组，但这并不保证。因此，通常来说，最好仅在希望贴文能够比否则传播更广的情况下使用标签。例如，`#introduction` 标签通常用于希望向 Fediverse 自我介绍的新账户！
 
 在贴文中包括标签的工作方式类似于大多数其他社交媒体软件：只需在要用作标签的单词前添加 `#` 符号即可。
 

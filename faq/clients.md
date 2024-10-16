@@ -13,7 +13,7 @@ description: 如何登录Owu Social，以及推荐的客户端应用。
 
 - [Phanpy](https://phanpy.owu.one) <Badge text="推荐" type="info" />
 - [Elk](https://elk.owu.one)
-- [Mastodon FE (Mastodon独立前端)](https://masto-fe.owu.one)
+- [Mastodon FE](https://masto-fe.owu.one) (Mastodon独立前端)
 - [Soapbox](https://soapbox.owu.one)
 
 此外还有以下第三方网页客户端:
@@ -28,5 +28,9 @@ description: 如何登录Owu Social，以及推荐的客户端应用。
 
 ### iOS
 
-- [Ice Cubes (免费)](https://apps.apple.com/app/ice-cubes-for-mastodon/id6444915884) <Badge text="推荐" type="info" />
-- [Mona (收费)](https://apps.apple.com/app/id1659154653)
+- [Ice Cubes](https://apps.apple.com/app/ice-cubes-for-mastodon/id6444915884) <Badge text="免费" type="info" />
+- [Mona (收费)](https://apps.apple.com/app/id1659154653) <Badge text="收费" type="info" />
+
+---
+
+你还可以在[Mastodon客户端列表](https://joinmastodon.org/apps)中找到更多客户端。
