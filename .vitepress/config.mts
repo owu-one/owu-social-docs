@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: true,
   metaChunk: true, // experimental
   sitemap: {
-    hostname: "https://docs.social.owu.one"
+    hostname: "https://scg-docs.owu.one"
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

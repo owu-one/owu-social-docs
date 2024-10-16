@@ -22,7 +22,7 @@ Owu Social 由 GoToSocial 驱动,这是一个年轻的社交软件（2021年2月
 | 编辑贴文 | 预计 2024 年底到 2025 年初发布, 具体参见 [Issue #1990](https://github.com/superseriousbusiness/gotosocial/issues/1990) |
 | 通知推送 | N/A, 具体参见 [Issue #1350](https://github.com/superseriousbusiness/gotosocial/issues/1350) |
 | 自定义表情回应 | N/A |
-| 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
+| 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
 | 设置面板多语言支持 | N/A, Owu Social 已将大多数公开页面和邮件通知翻译为中文,但设置面板仍为英文。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
 | 客户端授权管理 | N/A, 具体参见 [Issue #1081](https://github.com/superseriousbusiness/gotosocial/issues/1081), [Issue #1573](https://github.com/superseriousbusiness/gotosocial/issues/1573), [Issue #2227](https://github.com/superseriousbusiness/gotosocial/issues/2227), [Issue #2523](https://github.com/superseriousbusiness/gotosocial/issues/2523) |
 | 中继 | N/A, Owu Social 通过单向订阅中继保证你能接触到广泛的内容,但你公开发布的内容目前只能依靠他人的主动关注和转发来进入其它实例。具体参见 [Issue #1123](https://github.com/superseriousbusiness/gotosocial/issues/1123), [Issue #1124](https://github.com/superseriousbusiness/gotosocial/issues/1124) |
