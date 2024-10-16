@@ -64,7 +64,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '认识联邦宇宙', link: '/faq/fediverse' },
-          { text: '注册', link: '/faq/register' },
+          { text: '注册', link: '/faq/sign-up' },
           { text: '登录与客户端', link: '/faq/clients' },
           { text: '发现内容', link: '/faq/discover' },
           { text: '发帖与互动', link: '/faq/posting' },
@@ -79,7 +79,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '设置面板简介', link: '/settings/overview' },
-          { text: '自定义样式(高级)', link: '/settings/custom-css' },
+          { text: '自定义样式', link: '/settings/custom-css' },
           { text: '账户迁移', link: '/settings/migration' },
           { text: '互动控制', link: '/settings/interaction-control' },
         ]

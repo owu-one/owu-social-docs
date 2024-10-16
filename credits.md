@@ -18,4 +18,5 @@ description: Owu Social 食用说明的参考内容。
 
 我们使用了以下图标库或图标项目的图标，特此声明并表示感谢。
 
+- GoToSocial 的官方图标
 - [Noun Project](https://thenounproject.com/)

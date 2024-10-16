@@ -29,7 +29,7 @@ description: 如何登录Owu Social，以及推荐的客户端应用。
 ### iOS
 
 - [Ice Cubes](https://apps.apple.com/app/ice-cubes-for-mastodon/id6444915884) <Badge text="免费" type="info" />
-- [Mona (收费)](https://apps.apple.com/app/id1659154653) <Badge text="收费" type="info" />
+- [Mona](https://apps.apple.com/app/id1659154653) <Badge text="收费" type="info" />
 
 ---
 
