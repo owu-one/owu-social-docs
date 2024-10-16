@@ -69,7 +69,7 @@ export default defineConfig({
           { text: '发现内容', link: '/faq/discover' },
           { text: '发帖与互动', link: '/faq/posting' },
           { text: '搜素', link: '/faq/search' },
-          { text: '静音、过滤与屏蔽', link: '/faq/filter' },
+          { text: '过滤、静音与屏蔽', link: '/faq/filter' },
           { text: '功能支持', link: '/faq/feature' },
           { text: '隐私与安全', link: '/faq/privacy-and-security' }
         ]
