@@ -9,7 +9,7 @@ description: Owu Social 的功能支持情况
 
 ## 尚未支持的功能
 
-本节只列出可能对你的使用体验产生影响的重要功能。
+本节只列出可能对你（用户）的使用体验产生影响的功能。
 
 ::: tip 提示
 如果你是普通用户,想要跟进有关功能支持的更新,只需关注 [@admin@scg.owu.one](https://scg.owu.one/@admin) 即可。
@@ -27,9 +27,9 @@ description: Owu Social 的功能支持情况
 | 通知推送 | N/A, 具体参见 [Issue #1350](https://github.com/superseriousbusiness/gotosocial/issues/1350) |
 | 自定义表情回应 | N/A |
 | 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
-| 设置面板多语言支持 | N/A, Owu Social 已将大多数公开页面和邮件通知翻译为中文,但设置面板仍为英文。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
+| 多语言支持 | N/A, Owu Social 已将大多数公开页面和邮件通知翻译为中文,但设置面板仍为英文。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
 | WebHook | N/A, 用于实现自动化的高级功能。具体参见 [Issue #2164](https://github.com/superseriousbusiness/gotosocial/issues/2164) |
-| 链接验证 | N/A, 具体参见 [Issue #2352](https://github.com/superseriousbusiness/gotosocial/issues/2352) |
+| 链接验证 | N/A, 目前你填写的链接只要正确配置了验证字段，仍能在其它支持链接验证的实例显示。具体参见 [Issue #2352](https://github.com/superseriousbusiness/gotosocial/issues/2352) |
 | HTML格式的嘟文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
 | 改变媒体附件缩略图的焦点 | N/A, 具体参见 [Issue #2593](https://github.com/superseriousbusiness/gotosocial/issues/2593) |
 | 全站公告 | N/A, 具体参见 [Issue #2621](https://github.com/superseriousbusiness/gotosocial/issues/2621) |
@@ -54,5 +54,5 @@ description: Owu Social 的功能支持情况
 
 | 功能 | 说明 |
 | --- | --- |
-| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631) |
+| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631)，但有计划支持双因素认证，参见上方“尚未支持的功能” |
 | 跨实例交互引导 | GoToSocial 提供的网页是静态的，仅供浏览。参见 [Issue #1895](https://github.com/superseriousbusiness/gotosocial/issues/1895) |

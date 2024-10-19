@@ -30,7 +30,7 @@ Owu Social 提供类似 Mastodon 的贴文可见性设置。从最私密到最�
 `私信(仅提及)` 可见的贴文仅对作者和贴文中提到的用户可见。例如：
 
 ```text
-嘿 @whoever@example.org，这是一条私密/直接消息！只有我们能看到！
+嘿 @whoever@example.org，这是一条私信！只有我们能看到！
 ```
 
 如果这条消息是由 `@someone@scg.owu.one` 写的，那么只有 `@whoever@example.org` 和 `@someone@scg.owu.one` 能看到。
@@ -131,11 +131,10 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 如果你属于一个对保密有运营需求的组织，或者你正在被跟踪或监视，建议考虑不要发布可能包含你所在位置线索的媒体。
 :::
 
-## 格式化
 
-::: tip 提示
-本节属于对技术细节的深入探讨，如果你只是想了解如何发布贴文，只需了解上面的内容即可。
-:::
+::: details 【技术细节】格式化
+
+## 格式化
 
 当以 `plain` 格式提交贴文时，Owu Social 会自动对贴文进行一些整理和格式化，以转换为 HTML，如下所述。
 
@@ -162,13 +161,13 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 所以以下文本：
 
 ```text
-嗨，这是一个小贴文！
+嗨，这是一条很短的嘟嘟！
 ```
 
 将变为：
 
 ```html
-<p>嗨，这是一个小贴文！</p>
+<p>嗨，这是一条很短的嘟嘟！</p>
 ```
 
 ### 换行
@@ -178,15 +177,15 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 继续上面的例子：
 
 ```text
-嗨，这是一个小贴文！
+嗨，这是一条很短的嘟嘟！
 
-这是另一行。
+但是还有另一行！
 ```
 
 将变为：
 
 ```html
-<p>嗨，这是一个小贴文！<br /><br />这是另一行。</p>
+<p>嗨，这是一条很短的嘟嘟！<br />但是还有另一行！</p>
 ```
 
 ### 链接
@@ -196,18 +195,18 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 例如：
 
 ```text
-这是一个链接：https://example.org/some/link/address
+这是一条链接：https://scg.owu.one
 ```
 
 将变为：
 
 ```html
-这是一个链接：<a href="https://example.org/some/link/address" rel="nofollow" rel="noreferrer" rel="noopener">example.org/some/link/address</a>
+这是一条链接：<a href="https://scg.owu.one" rel="nofollow" rel="noreferrer" rel="noopener">https://scg.owu.one</a>
 ```
 
 并呈现为：
 
-> 这是一个链接：[example.org/some/link/address](https://example.org/some/link/address)
+> 这是一条链接：[scg.owu.one](https://scg.owu.one)
 
 注意，这只适用于 `http` 和 `https` 链接，其他协议不支持。
 
@@ -215,43 +214,43 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 
 你可以通过以下方式提及另一个账户：
 
-> @some_account@example.org
+> @admin@scg.owu.one
 
-在此示例中，`some_account` 是你要提及账户的用户名，`example.org` 是托管其账户的域名。
+在此示例中，`admin` 是你要提及账户的用户名，`scg.owu.one` 是这个账户所在的实例域名。
 
 被提及的账户会收到通知，知道你提到了他们，并能看到提及内容的贴文。
 
 提及格式类似于链接，所以：
 
 ```text
-嗨 @some_account@example.org 最近怎么样？
+嗨 @admin 你最近怎么样？
 ```
 
 将变为：
 
 ```html
-嗨 <span class="h-card"><a href="https://example.org/@some_account" class="u-url mention">@<span>some_account</span></a></span> 最近怎么样？
+嗨 <span class="h-card"><a href="https://scg.owu.one/@admin" class="u-url mention">@<span>admin</span></a></span> 你最近怎么样？
 ```
 
 并呈现为：
 
-> 嗨 <span class="h-card"><a href="https://example.org/@some_account" class="u-url mention">@<span>some_account</span></a></span> 最近怎么样？
+> 嗨 <span class="h-card"><a href="https://scg.owu.one/@admin" class="u-url mention">@<span>admin</span></a></span> 你最近怎么样？
 
-提及本站账户(即你的实例上的账户)时，可以省略提及的第二部分。如果你的实例上有名为 `local_account_person` 的账户，你可以直接这样提及：
+提及本站账户(即你的实例上的账户)时，可以省略提及的第二部分。如果本站有用户名名为 `admin` 的账户，你可以直接这样提及：
 
 ```text
-嘿 @local_account_person 你是我的网上邻居
+嘿 @admin 你是我的网上邻居
 ```
 
 这将变为：
 
 ```html
-嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的网上邻居
+嘿 <span class="h-card"><a href="https://scg.owu.one/@admin" class="u-url mention">@<span>admin</span></a></span> 你是我的网上邻居
 ```
 
 并呈现为：
 
-> 嘿 <span class="h-card"><a href="https://my.instance.org/@local_account_person" class="u-url mention">@<span>local_account_person</span></a></span> 你是我的网上邻居
+> 嘿 <span class="h-card"><a href="https://scg.owu.one/@admin" class="u-url mention">@<span>admin</span></a></span> 你是我的网上邻居
 
 ### 话题标签
 
@@ -263,19 +262,20 @@ Markdown 语法的快速参考，请参阅[Markdown 速查表](https://www.markd
 
 一些例子：
 
-* `#introduction`
-* `#Mosstodon`
-* `#LichenSubscribe`
+* `#我的碎碎念`
+* `#owusocial更新日志`
+* `#caturday`
 
-Owu Social 中的标签不区分大小写，因此无论你在书写标签时使用大写、小写或二者混合，都会被视为相同的标签。例如，`#Introduction` 和 `#introduction` 被视为完全相同。
+Owu Social 中的标签不区分大小写，因此无论你在书写标签时使用大写、小写或二者混合，都会被视为相同的标签。例如，`#owusocial更新日志` 和 `#OwuSocial更新日志` 被视为完全相同。
 
 出于无障碍考虑，建议在书写标签时使用大写字母驼峰拼写。换句话说：将标签中每个词的首字母大写。因此，与 `#thisisahashtag` 相比，这种方式难以阅读视觉上难以阅读，也难以被屏幕阅读器朗读，建议使用 `#ThisIsAHashtag`。
 
 你可以在 Owu Social 的贴文中包含任意数量的标签，每个标签的长度限制为 100 个字符。
 
-## 安全处理
 
-为了避免传播脚本、漏洞和故障 HTML，Owu Social 执行以下类型的安全处理：
+### 安全处理
+
+为了避免传播脚本、漏洞和故障 HTML，GoToSocial 执行以下类型的安全处理：
 
 `plain` 输入类型：
 
@@ -287,5 +287,4 @@ Owu Social 中的标签不区分大小写，因此无论你在书写标签时使
 * 解析之前，内容警告字段中的任何现有 HTML 会被完全删除。
 * 解析之前，贴文主体中的任何现有 HTML 会通过消毒程序以移除有害元素。
 * 解析后，所有生成的 HTML 会通过以安全处理管线移除有害元素。
-
-Owu Social 使用 [bluemonday](https://github.com/microcosm-cc/bluemonday) 进行 HTML 消毒。
+:::
