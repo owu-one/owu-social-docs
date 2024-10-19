@@ -1,6 +1,9 @@
 ---
 title: Owu Social-M
 description: Owu Social-M 是 Owu One 运营的 Mitra 实例。
+next:
+  text: 相关实例
+  link: '/instances.md'
 ---
 
 # Owu Social-M

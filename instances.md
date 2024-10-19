@@ -1,6 +1,9 @@
 ---
 title: 相关实例
 description: 与 Owu Social 为同一运营方的其它实例。
+prev:
+  text: Owu Social-M
+  link: '/services/social-m.md'
 ---
 
 # 相关实例

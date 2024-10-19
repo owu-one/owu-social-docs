@@ -38,6 +38,7 @@ Owu Social 支持进行账户迁移。这使您可以从其它账户迁移到您
 在 Mastodon 中，“账户迁移”设置部分看起来像这样：
 
 ![Mastodon “账户迁移”设置入口。](https://osraw-img.owu.one/2024/10/16/670f22159ca91.png)
+
 ![Mastodon “账户迁移”设置页面。](https://osraw-img.owu.one/2024/10/16/670f223fc88a3.png)
 
 如果您要从 Mastodon 账户迁移到 Owu Social 账户，您需要在“处理新账号”字段中填写 GoToSocial 账户的 `@[用户名]@[域名]` 值。例如，`@someone@scg.owu.one`。
