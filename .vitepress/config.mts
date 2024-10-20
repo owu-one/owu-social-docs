@@ -107,6 +107,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '相关实例', link: '/instances' },
+          { text: '服务状态', link: '/status' },
           { text: '更新日志', link: '/changelog' },
           { text: '完善文档', link: '/contribute' },
           { text: '参考与致谢', link: '/credits' }

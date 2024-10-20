@@ -5,6 +5,8 @@ description: Owu Social 的站点介绍
 
 # 关于 Owu Social
 
+[![服务状态](https://status.owu.one/api/badge/39/status?style=for-the-badge)](/status.md)
+
 ::: tip 提示
 对这里提到的一些术语不熟悉？可以先看看[认识联邦宇宙](/faq/fediverse.md)。
 :::
