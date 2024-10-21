@@ -93,7 +93,8 @@ export default defineConfig({
           { text: '站内机器人', link: '/services/bots' },
           { text: 'Owu Write', link: '/services/write' },
           { text: 'Owu Chat', link: '/services/chat' },
-          { text: 'Owu Social-M', link: '/services/social-m' }
+          { text: 'Owu Social-M', link: '/services/social-m' },
+          { text: 'Owu Board', link: '/services/board' }
         ]
       },
       {
