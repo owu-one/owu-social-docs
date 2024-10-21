@@ -28,7 +28,8 @@ export default defineConfig({
           { text: '服务状态', link: 'https://status.owu.one' },
           { text: 'Owu Write', link: 'https://write.owu.one' },
           { text: 'Owu Chat', link: 'https://mtx.owu.one' },
-          { text: 'Owu Social-M', link: 'https://scm.owu.one' }
+          { text: 'Owu Social-M', link: 'https://scm.owu.one' },
+          { text: 'Owu Board', link: 'https://board.owu.one' }
         ]
       }
     ],
