@@ -15,7 +15,7 @@ export default defineConfig({
   srcExclude: [
     '**/README.md',
     '**/LICENSE.md',
-    '/dev/api/**',
+    '**/dev/api/**',
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
