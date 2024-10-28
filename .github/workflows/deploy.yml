@@ -2,6 +2,7 @@ name: Deploy to remote
 on: [push, workflow_dispatch]
 jobs:
   build:
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,6 +17,14 @@ jobs:
         run: |
           npm install
           npm run docs:build
+      - name: Build API docs
+        run: |
+          cd dev/api
+          npm install
+          npm run op:build
+          npm run docs:build
+          cp -r .vitepress/dist/ ../../.vitepress/dist/api
+          cd ../../
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.7.0
         with:

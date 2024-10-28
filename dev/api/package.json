@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview .",
+    "api:download": "wget -O ./spec/swagger-original.yaml https://raw.githubusercontent.com/superseriousbusiness/gotosocial/refs/heads/main/docs/api/swagger.yaml",
+    "api:generate": "openapi-generator-cli generate -i ./spec/swagger.yaml -g openapi -o spec/generated && cp spec/generated/openapi.json spec/openapi.json",
+    "op:build": "bun spec/rebuild-op-dir.ts"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.15.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.8.1",
+    "js-yaml": "^4.1.0",
+    "vitepress": "^1.4.1",
+    "vitepress-openapi": "^0.0.3-alpha.44",
+    "vue": "^3.5.12"
+  }
+}

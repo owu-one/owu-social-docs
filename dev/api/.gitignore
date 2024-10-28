@@ -1,0 +1,7 @@
+spec/generated/
+ops/
+openapitools.json
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+bun.lockb
