@@ -101,7 +101,7 @@ export default defineConfig({
         text: '开发',
         collapsed: true,
         items: [
-          { text: 'API', link: '/dev/api' }
+          { text: 'API', link: 'https://scg-docs.owu.one/dev/api/' }
         ]
       },
       {

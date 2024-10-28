@@ -24,11 +24,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '返回', link: 'https://scg-docs.owu.one/' }
+      { text: '返回', link: 'https://scg-docs.owu.one/dev/' }
     ],
 
     sidebar: [
-      { text: '返回食用指南', link: 'https://scg-docs.owu.one/' },
+      { text: '返回食用指南', link: 'https://scg-docs.owu.one/dev/' },
       { text: '首页', link: '/' },
       ...sidebar.generateSidebarGroups()
     ],
