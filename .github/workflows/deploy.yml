@@ -22,7 +22,7 @@ jobs:
           bun install
           bun run op:build
           bun run docs:build
-          cp -r .vitepress/dist/ ../../.vitepress/dist/api
+          cp -r .vitepress/dist/ ../../.vitepress/dist/dev/api
           cd ../../
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.7.0
