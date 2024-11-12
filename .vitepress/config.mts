@@ -81,6 +81,7 @@ export default defineConfig({
           { text: '搜素', link: '/faq/search' },
           { text: '过滤、静音与屏蔽', link: '/faq/filter' },
           { text: '功能支持', link: '/faq/feature' },
+          { text: '兼容性', link: '/faq/compatibility' },
           { text: '隐私与安全', link: '/faq/privacy-and-security' }
         ]
       },
@@ -106,16 +107,10 @@ export default defineConfig({
         ]
       },
       {
-        text: '开发',
-        collapsed: true,
-        items: [
-          { text: 'API', link: 'https://scg-docs.owu.one/dev/api/' }
-        ]
-      },
-      {
         text: '其他',
         collapsed: true,
         items: [
+          { text: '开发文档', link: '/dev' },
           { text: '相关实例', link: '/instances' },
           { text: '服务状态', link: '/status' },
           { text: '更新日志', link: '/changelog' },

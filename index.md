@@ -16,13 +16,10 @@ hero:
     - theme: alt
       text: 周边服务
       link: /services/write
-    - theme: alt
-      text: 开发文档
-      link: /dev
   image:
     src: /logo.webp
     alt: Owu Social Logo
-    
+
 
 features:
   - title: 去中心化

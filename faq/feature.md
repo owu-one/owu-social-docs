@@ -19,8 +19,8 @@ description: Owu Social 的功能支持情况
 
 | 功能 | 支持计划 |
 | --- | --- |
-| 在主页显示转发 | 即将发布(已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346),预计在 v0.18 发布) |
-| 编辑贴文 | 预计 2024 年底到 2025 年初发布, 具体参见 [Issue #1990](https://github.com/superseriousbusiness/gotosocial/issues/1990) |
+| 在主页显示转发 | 即将发布(已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346)) |
+| 编辑贴文 | 预计在 v0.18 发布, 具体参见 [Issue #1990](https://github.com/superseriousbusiness/gotosocial/issues/1990) |
 | 客户端授权管理 | 预计 2024 年底到 2025 年初发布, 具体参见 [Issue #1081](https://github.com/superseriousbusiness/gotosocial/issues/1081), [Issue #1573](https://github.com/superseriousbusiness/gotosocial/issues/1573), [Issue #2227](https://github.com/superseriousbusiness/gotosocial/issues/2227), [Issue #2523](https://github.com/superseriousbusiness/gotosocial/issues/2523) |
 | 中继 | 预计 2024 年底到 2025 年初发布, Owu Social 通过单向订阅中继保证你能接触到广泛的内容,但你公开发布的内容目前只能依靠他人的主动关注和转发来进入其它实例。具体参见 [Issue #1123](https://github.com/superseriousbusiness/gotosocial/issues/1123), [Issue #1124](https://github.com/superseriousbusiness/gotosocial/issues/1124) |
 | 双因素认证 | 预计 2024 年底到 2025 年初发布 |

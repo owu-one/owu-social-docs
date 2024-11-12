@@ -14,12 +14,12 @@ description: 如何登录Owu Social，以及推荐的客户端应用。
 - [Phanpy](https://phanpy.owu.one) <Badge text="推荐" type="info" />
 - [Elk](https://elk.owu.one)
 - [Mastodon FE](https://masto-fe.owu.one) (Mastodon独立前端)
+- [Enafore](https://enafore.owu.one)
 - [Soapbox](https://soapbox.owu.one)
 
 此外还有以下第三方网页客户端:
 - [Semaphore](https://semaphore.social/)
 - [Trunks](https://trunks.social/)
-
 
 ### Android
 

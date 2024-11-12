@@ -13,4 +13,5 @@ prev:
 | 实例名称 | 简介 |
 | --- | --- |
 | [Owu Social-M](https://scm.owu.one) | Owu Social-M 是 Owu One 运营的 Mitra 实例。 |
+| [Owu Board](https://bdl.owu.one) | Owu Board 是 Owu One 运营的 Lemmy 实例。 |
 | [Go2Socical](https://gotosocial.social) | Go2Socical 是 Owu One 运营的英文公共 GoToSocial 实例。 |

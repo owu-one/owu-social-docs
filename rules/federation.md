@@ -7,7 +7,7 @@ description: Owu Social的联合范围
 
 Owu Social 采用**黑名单模式**进行联合，即默认情况下所有实例之间可以互相联合。
 
-如果你对 Owu Social 和某个实例的联合/解除联合有任何疑问或建议，请[联系我们](/contact.md)
+如果你对 Owu Social 和某个实例的联合/解除联合有任何疑问或建议，请[联系我们](/contact.md)。
 
 ## 黑名单
 
