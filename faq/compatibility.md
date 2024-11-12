@@ -5,7 +5,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 
 # 联合与兼容性
 
-本页总结了 Owu Social 与其他 ActivityPub 实现和平台的联合与兼容情况。
+本页总结了 Owu Social 与其他 ActivityPub 实现和平台的联合与兼容情况。如果你遇到无法与来自其它实例的账户沟通的情况，请[联系我们](/contact.md)。
 
 ::: details 符号说明
 - ✅ - 没有问题
@@ -17,7 +17,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 - 📋 - 链接到与软件相关的 [fediverse.observer](https://fediverse.observer/list) 列表
 :::
 
-| 软件 | 联合情况 | 问题 | 测试的实例/账户（如果有） |
+| 软件 | 联合情况 | 问题 | 测试的实例/账户（如果有）与备注 |
 | --- | --- | --- | --- |
 | [Mastodon](https://github.com/mastodon/mastodon) [📋](https://mastodon.fediverse.observer/list) | ✅ |  |  |
 | Mastodon 派生软件 |
@@ -27,7 +27,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [Glitch-soc](https://github.com/glitch-soc/mastodon) | ✅ |  |  |
 | [Hometown](https://github.com/hometown-fork/hometown) [📋](https://hometown.fediverse.observer/list) | ✅ |  |  |
 | |
-| [Misskey](https://github.com/misskey-dev/misskey) [📋](https://hometown.fediverse.observer/list) | ☑️ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | https://misskey.io/@cdn |
+| [Misskey](https://github.com/misskey-dev/misskey) [📋](https://hometown.fediverse.observer/list) | ☑️ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | https://misskey.io/@cdn <br/>注：目前已知唯一问题是，如果对应 Misskey 账户启用了关注请求批准，那么来自 Owu Social 的账户向对方发送的关注请求可能不会出现在对方的关注请求列表中。 |
 | Misskey 派生软件 |
 | [CherryPick](https://github.com/kokonect-link/cherrypick) [📋](https://cherrypick.fediverse.observer/list) | ☑️ | 同 Misskey |  |
 | [Firefish](https://firefish.dev/firefish/firefish) [📋](https://firefish.fediverse.observer/list) | ✅ |  |  |
