@@ -13,10 +13,14 @@ Owu Social 维护了完整的 GoToSocial 官方中文文档，已合并到 GoToS
 [https://docs.gotosocial.org/zh-cn/latest/](https://docs.gotosocial.org/zh-cn/latest/)
 :::
 
-::: details API 文档
-GoToSocial 通过 Swagger 提供 OpenAPI v2文档，可以通过以下链接查看：
+::: details API 文档与 SDK
+GoToSocial 通过 Swagger 提供 OpenAPI v2文档，可以在 [https://docs.gotosocial.org/zh-cn/latest/api/swagger/](https://docs.gotosocial.org/zh-cn/latest/api/swagger/) 查看。
 
-[https://docs.gotosocial.org/zh-cn/latest/api/swagger/](https://docs.gotosocial.org/zh-cn/latest/api/swagger/)
+目前已有以下基于 GoToSocial API 的 SDK：
+
+| 语言 | 地址 |
+| --- | --- |
+| Golang | [github.com/owu-one/gotosocial-sdk](https://github.com/owu-one/gotosocial-sdk) (此 SDK 即将变更地址) |
 :::
 
 ::: details 贡献指引

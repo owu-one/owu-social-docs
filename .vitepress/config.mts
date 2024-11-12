@@ -23,7 +23,6 @@ export default defineConfig({
   srcExclude: [
     '**/README.md',
     '**/LICENSE.md',
-    '**/dev/api/**',
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -110,7 +109,7 @@ export default defineConfig({
         text: '其他',
         collapsed: true,
         items: [
-          { text: '开发文档', link: '/dev' },
+          { text: '开发文档', link: '/development' },
           { text: '相关实例', link: '/instances' },
           { text: '服务状态', link: '/status' },
           { text: '更新日志', link: '/changelog' },
