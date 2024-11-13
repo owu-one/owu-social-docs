@@ -37,6 +37,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 |  |
 | [Betula](https://sr.ht/~bouncepaw/betula) [📋](https://betula.fediverse.observer/list) | ❌ |  | [@danila@links.danilax86.space](https://links.danilax86.space/@danila) |
 | [Bluesky](https://bsky.social) | ❌ | | Bluesky 使用 AT 协议而非 ActivityPub，无法与 Owu Social 联合。有开发者实现了从 Bluesky 到 ActivityPub 的内容镜像。只要实现正确，Owu Social 可以与这些镜像服务联合，镜像账户适用于[特殊账户](/rules/special-accounts.md)的额外规定。 |
+| [Bridgy Fed](https://fed.brid.gy/) | ⚠️ | [GtS #3381](https://github.com/superseriousbusiness/gotosocial/issues/3381), [BridgyFed #1033](https://github.com/snarfed/bridgy-fed/issues/1033) | 注：目前，Owu Social账户无法与Bridgy Fed桥接中心账户联合创建Bluesky上的镜像账户；可以搜索到Bluesky账户通过Bridgy Fed创建的Fediverse镜像账户，但无法关注。此问题预计在v0.18修复。 |
 | [Bonfire](https://github.com/bonfire-networks) | ⚠️ |  | https://hiti.nairatmya.org/@mossbeard |
 | [Bookwyrm](https://github.com/bookwyrm-social/bookwyrm) [📋](https://bookwyrm.fediverse.observer/list) | ✅ |  | [@jussi@books.duck.cafe](https://books.duck.cafe/user/jussi) |
 | [Bovine](https://codeberg.org/bovine/bovine) | ⚠️ |  | @moocow@bovine.fly.dev |
@@ -53,6 +54,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [GNU Social](https://notabug.org/diogo/gnu-social) 👻 [📋](https://gnusocial.fediverse.observer/list) | ✅ |  |  |
 | [Goblin](https://github.com/johnHackworth/goblin) [📋](https://goblin.fediverse.observer/list) | ✅ |  | https://goblin.band/@goblin |
 | [Gotosocial](https://github.com/superseriousbusiness/gotosocial) [📋](https://gotosocial.fediverse.observer/list) | ✅ |  | https://gts.superseriousbusiness.org/@gotosocial |
+| [Guppe](https://a.gup.pe) 👻 | ⚠️ | [Guppe #90](https://github.com/immers-space/guppe/issues/90) | `@board@a.gup.pe`<br/>注：Guppe使用的HTTP签名库较老，无法识别 Owu Social 的 Activity 签名。若有时间我们将尝试修复这一问题。 |
 | [Hamabē](https://codeberg.org/hamabe/hamabe) [📋](https://hamabe.fediverse.observer/list) | ✅ |  | [@mochi@try.hamabe.space](https://try.hamabe.space/public/@mochi) |
 | [Hollo](https://github.com/dahlia/hollo) [📋](https://hollo.fediverse.observer/list) | ✅ |  | https://hollo.social/@hollo |
 | [Honk](https://humungus.tedunangst.com/r/honk) [📋](https://honk.fediverse.observer/list) | ✅ |  | https://h.icyphox.sh/@icy |
