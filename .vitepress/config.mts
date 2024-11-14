@@ -100,7 +100,7 @@ export default defineConfig({
           { text: 'Owu Board', link: '/services/board' },
           { text: 'Owu Chat', link: '/services/chat' },
           { text: 'Owu Social-M', link: '/services/social-m' },
-          { text: 'OwuTube', link: 'services/peertube' },
+          { text: 'OwuTube', link: '/services/peertube' },
           { text: 'Owu Write', link: '/services/write' }
         ]
       },
