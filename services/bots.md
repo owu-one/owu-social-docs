@@ -1,9 +1,21 @@
 ---
-title: 站内机器人
-description: 介绍 Owu Social 提供的各种Bot
+title: Bot 服务
+description: Owu One 运营的 Bot 服务
 ---
 
-# 站内机器人
+# Bot服务
+
+## 哔埔市 beepboop.city <Badge text="即将上线"/>
+
+哔埔市 beepboop.city 是 Owu One 运营的专门为 Bot 账户提供服务的 Fediverse 实例。
+
+::: details 详情
+
+*TBD*
+
+:::
+
+## Owu Social 站内机器人
 
 ::: details GPT Bot
 

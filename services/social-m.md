@@ -1,9 +1,6 @@
 ---
 title: Owu Social-M
 description: Owu Social-M 是 Owu One 运营的 Mitra 实例。
-next:
-  text: 相关实例
-  link: '/instances.md'
 ---
 
 # Owu Social-M
@@ -21,4 +18,12 @@ Mitra 也是一个联邦宇宙软件，它的主要特色如下：
 - 兼容 Mastodon API，支持引用嘟文。
 - 支持使用区块链钱包登录。支持通过 Tor/I2P 访问。
 
-区块链相关功能后续开启，暂时不会启用 Tor/I2P 支持。
+目前 Owu Social-M 暂时不会启用 Tor/I2P 支持。
+
+## 注册
+
+Owu Social-M 目前采取邀请注册制，如果你想在此注册账号，请填写此表单：https://forms.owu.one/lR76
+
+::: info 维护说明
+由于时间和成本限制，我们目前首先保证此服务正常运行，内容/外观/功能改进计划可能实装得较为缓慢。你应该自行导入或以其它方式设法自行发现内容，构建自己的信息流。并主动向管理员提出功能请求以获取该功能的具体实装计划。
+:::

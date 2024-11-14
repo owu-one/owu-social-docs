@@ -12,7 +12,7 @@ Owu Social 对用户披露以下信息:
 | 服务端源代码 | Owu Social网页页脚 |
 | 客户端源代码 | 对应客户端的首页页脚或菜单中的“关于”部分 |
 | 服务期限 | 决定终止服务至少提前 `90` 天在管理员账号发布 |
-| 规则与条款 | 在Owu Social首页和网页页脚提供指向文档的链接<br/>在[更新日志](/changelog.md)页面总结主要变更 ｜
+| 规则与条款 | 在Owu Social首页和网页页脚提供指向文档的链接<br/>在[更新日志](/changelog.md)页面总结主要变更 |
 | 服务状态 | 在文档页导航栏提供指向[状态页](https://status.owu.one)的链接 |
 | 故障报告与解决进展 | 服务不可用时在[备用账号](https://mastodon.social/@owusocial)发布，服务可用时在[管理员账号](https://scg.owu.one/@admin)发布 |
 | 服务升级、维护与迁移 | 服务不可用时在[备用账号](https://mastodon.social/@owusocial)发布，服务可用时在[管理员账号](https://scg.owu.one/@admin)发布 |

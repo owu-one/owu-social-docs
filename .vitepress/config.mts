@@ -33,10 +33,7 @@ export default defineConfig({
         items: [
           { text: 'Owu Social', link: 'https://scg.owu.one' },
           { text: '服务状态', link: 'https://status.owu.one' },
-          { text: 'Owu Write', link: 'https://write.owu.one' },
-          { text: 'Owu Chat', link: 'https://mtx.owu.one' },
-          { text: 'Owu Social-M', link: 'https://scm.owu.one' },
-          { text: 'Owu Board', link: 'https://board.owu.one' }
+          { text: '周边服务', link: '/services/'}
         ]
       }
     ],
@@ -98,11 +95,13 @@ export default defineConfig({
         text: '周边服务',
         collapsed: true,
         items: [
-          { text: '站内机器人', link: '/services/bots' },
-          { text: 'Owu Write', link: '/services/write' },
+          { text: '机器人', link: '/services/bots' },
+          { text: 'OwKey', link: '/services/misskey' },
+          { text: 'Owu Board', link: '/services/board' },
           { text: 'Owu Chat', link: '/services/chat' },
           { text: 'Owu Social-M', link: '/services/social-m' },
-          { text: 'Owu Board', link: '/services/board' }
+          { text: 'OwuTube', link: 'services/peertube' },
+          { text: 'Owu Write', link: '/services/write' }
         ]
       },
       {
