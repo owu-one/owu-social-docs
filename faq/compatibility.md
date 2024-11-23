@@ -27,13 +27,13 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [Glitch-soc](https://github.com/glitch-soc/mastodon) | ✅ |  |  |
 | [Hometown](https://github.com/hometown-fork/hometown) [📋](https://hometown.fediverse.observer/list) | ✅ |  |  |
 | |
-| [Misskey](https://github.com/misskey-dev/misskey) [📋](https://hometown.fediverse.observer/list) | ☑️ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | https://misskey.io/@cdn <br/>注：目前已知唯一问题是，如果对应 Misskey 账户启用了关注请求批准，那么来自 Owu Social 的账户向对方发送的关注请求可能不会出现在对方的关注请求列表中。 |
+| [Misskey](https://github.com/misskey-dev/misskey) [📋](https://misskey.fediverse.observer/list) | ✅ |  | 所有2024.11.0及之后版本的 Misskey 实例应该都可以与 Owu Social 无障碍联合 |
 | Misskey 派生软件 |
-| [CherryPick](https://github.com/kokonect-link/cherrypick) [📋](https://cherrypick.fediverse.observer/list) | ☑️ | 同 Misskey |  |
+| [CherryPick](https://github.com/kokonect-link/cherrypick) [📋](https://cherrypick.fediverse.observer/list) | ✅ |  |  |
 | [Firefish](https://firefish.dev/firefish/firefish) [📋](https://firefish.fediverse.observer/list) | ✅ |  |  |
 | [Foundkey](https://akkoma.dev/FoundKeyGang/FoundKey) [📋](https://foundkey.fediverse.observer/list) | ✅ |  |  |
 | [Iceshrimp](https://iceshrimp.dev/iceshrimp/iceshrimp) [📋](https://iceshrimp.fediverse.observer/list) + [Iceshrimp.NET](https://iceshrimp.dev/iceshrimp/iceshrimp.net) [📋](https://iceshrimpnet.fediverse.observer/list) | ✅ |  |  |
-| [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ☑️ | 同 Misskey |  |
+| [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ☑️ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | 注：目前已知唯一问题是，如果对应 Sharkey 账户启用了关注请求批准，那么来自 Owu Social 的账户向对方发送的关注请求可能不会出现在对方的关注请求列表中。此问题已修复，等待Sharkey合并发版。 |
 |  |
 | [Betula](https://sr.ht/~bouncepaw/betula) [📋](https://betula.fediverse.observer/list) | ❌ |  | [@danila@links.danilax86.space](https://links.danilax86.space/@danila) |
 | [Bluesky](https://bsky.social) | ❌ | | Bluesky 使用 AT 协议而非 ActivityPub，无法与 Owu Social 联合。有开发者实现了从 Bluesky 到 ActivityPub 的内容镜像。只要实现正确，Owu Social 可以与这些镜像服务联合，镜像账户适用于[特殊账户](/rules/special-accounts.md)的额外规定。 |
@@ -64,7 +64,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [Kitsune](https://github.com/kitsune-soc/kitsune) | ❓ |  | ❓ |
 | [Ktistec](https://github.com/toddsundsted/ktistec) [📋](https://ktistec.fediverse.observer/list) | ⚠️ | [Ktistec #103](https://github.com/toddsundsted/ktistec/issues/103), [GtS #2991](https://github.com/superseriousbusiness/gotosocial/issues/2991)  | https://epiktistes.com/@toddsundsted |
 | [Kroeg](https://puck.moe/git/kroeg) 👻 [📋](https://kroeg.fediverse.observer/list) | ⚠️ |  | https://puckipedia.com/ |
-| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ☑️ | [GtS #2697](https://github.com/superseriousbusiness/gotosocial/issues/2697), [All issues related to GtS](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial) | [user](https://lemmygrad.ml/u/yogthos), [community](https://lemmygrad.ml/c/funny)<br/>注：[Owu Board](https://bdl.owu.one) 和其它所有手动启用了Activity签名的 Lemmy 实例已经能与 Owu Social 正常联合 |
+| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ☑️ | [GtS #2697](https://github.com/superseriousbusiness/gotosocial/issues/2697), [All issues related to GtS](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial) | [user](https://lemmygrad.ml/u/yogthos), [community](https://lemmygrad.ml/c/funny)<br/>注：[Owu Board](https://bdl.owu.one) 和其它所有手动启用了Activity签名的 Lemmy 实例已经能与 Owu Social 正常联合。此功能支持通过配置文件或管理面板配置后，此处将标记为✅（无障碍联合） |
 | [Letterbook](https://github.com/Letterbook/Letterbook) | ❓ |  | ❓ |
 | [Magnetar](https://git.astolfo.cool/natty/magnetar) | ❓ |  | ❓ |
 | [Mbin](https://github.com/MbinOrg/mbin) ([Kbin](https://github.com/ernestwisniewski/kbin) 的维护状态存疑) [📋](https://mbin.fediverse.observer/list) | ⚠️ | 可以关注用户，但不能关注栏目(Magzine) | [user](https://kbin.earth/u/jwr1), [magazine](https://kbin.earth/m/kbinEarth) |
