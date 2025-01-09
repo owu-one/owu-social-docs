@@ -1,0 +1,35 @@
+name: Deploy to remote
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: docker
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Checkout private submodules(themes or something else).
+      - name: Setup Bun
+        run: |
+          curl -fsSL https://bun.sh/install | bash
+      - name: Build
+        run: |
+          bun install
+          bun run docs:build
+      - name: Publish to remote
+        run: |
+          if [ ! -d ~/.ssh ]; then
+            mkdir -p ~/.ssh
+          fi
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          dnf install rsync -y
+          rsync -av --delete -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes -p ${{ secrets.SSH_PORT }}" .vitepress/dist/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.WEB_ROOT }}
+          rm -rf ~/.ssh
