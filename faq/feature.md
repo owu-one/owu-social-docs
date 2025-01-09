@@ -38,6 +38,7 @@ description: Owu Social 的功能支持情况
 | 更多导入支持 | N/A, 具体参见 [Issue #3462](https://github.com/superseriousbusiness/gotosocial/issues/3462), [Issue #3463](https://github.com/superseriousbusiness/gotosocial/issues/3463) |
 | 将话题添加到列表 | N/A, 具体参见 [Issue #3484](https://github.com/superseriousbusiness/gotosocial/issues/3484) |
 | 解除“已迁移”状态 | N/A, 具体参见 [Issue #3584](https://github.com/superseriousbusiness/gotosocial/issues/3584) |
+| 仅互关可见 | N/A |
 
 ## 特色功能
 
