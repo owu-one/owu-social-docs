@@ -33,7 +33,7 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [Firefish](https://firefish.dev/firefish/firefish) [📋](https://firefish.fediverse.observer/list) | ✅ |  |  |
 | [Foundkey](https://akkoma.dev/FoundKeyGang/FoundKey) [📋](https://foundkey.fediverse.observer/list) | ✅ |  |  |
 | [Iceshrimp](https://iceshrimp.dev/iceshrimp/iceshrimp) [📋](https://iceshrimp.fediverse.observer/list) + [Iceshrimp.NET](https://iceshrimp.dev/iceshrimp/iceshrimp.net) [📋](https://iceshrimpnet.fediverse.observer/list) | ✅ |  |  |
-| [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ☑️ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | 注：目前已知唯一问题是，如果对应 Sharkey 账户启用了关注请求批准，那么来自 Owu Social 的账户向对方发送的关注请求可能不会出现在对方的关注请求列表中。此问题已修复，等待Sharkey合并发版。 |
+| [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ✅ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | 所有 2024.11.0 及之后版本的 Sharkey 实例都可以与 Owu Social 无障碍联合。 |
 |  |
 | [Betula](https://sr.ht/~bouncepaw/betula) [📋](https://betula.fediverse.observer/list) | ❌ |  | [@danila@links.danilax86.space](https://links.danilax86.space/@danila) |
 | [Bluesky](https://bsky.social) | ❌ | | Bluesky 使用 AT 协议而非 ActivityPub，无法与 Owu Social 联合。有开发者实现了从 Bluesky 到 ActivityPub 的内容镜像。只要实现正确，Owu Social 可以与这些镜像服务联合，镜像账户适用于[特殊账户](/rules/special-accounts.md)的额外规定。 |
@@ -102,5 +102,5 @@ description: Owu Social 与其它 ActivityPub 实现和平台的联合情况
 | [Writefreely](https://github.com/writefreely/writefreely) [📋](https://writefreely.fediverse.observer/list) | ☑️ |  | [@baslow@read.asorrybowl.blog](https://read.asorrybowl.blog)<br/>注：[Owu Write](https://write.owu.one) 和其它所有更新到v0.15.1及之后版本的 Writefreely 实例可与 Owu Social 正常联合 |
 | [write.as](https://write.as) (付费版？ Writefreely) | ⚠️ |  | [@write-as-roscoes-story@write.as](https://write.as/write-as-roscoes-story) |
 | [Wordpress](https://github.com/WordPress/wordpress-develop) [📋](https://wordpress.fediverse.observer/list) | ⚠️ / ✅ | 取决于使用的 [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) 插件 |  |
-| [wxwClub](https://github.com/wxwmoe/wxwClub) | ✅ |  | https://ovo.st/club/board |
+| [wxwClub](https://github.com/wxwmoe/wxwClub) | ☑️ |  | 注： 主要的wxwClub实例ovo.st与Owu Social的联合可能受到[数据保护措施](/terms/data.md)的第 4 条的影响。请咨询Owu Social管理员获取详情。若发现联合中断，请向管理员报告。 |
 | [Yarn](https://git.mills.io/yarnsocial/yarn) | ❓ |  | ❓ |
