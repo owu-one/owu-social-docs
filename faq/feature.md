@@ -19,7 +19,6 @@ description: Owu Social 的功能支持情况
 
 | 功能 | 支持计划 |
 | --- | --- |
-| 编辑贴文 | 预计在 v0.18 发布, 具体参见 [Issue #1990](https://github.com/superseriousbusiness/gotosocial/issues/1990) |
 | 通知推送 | 预计在 v0.18 发布, 具体参见 [Issue #1350](https://github.com/superseriousbusiness/gotosocial/issues/1350) |
 | 在主页显示转发 | 已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346) |
 | 客户端授权管理 | 预计 2024 年底到 2025 年初发布, 具体参见 [Issue #1081](https://github.com/superseriousbusiness/gotosocial/issues/1081), [Issue #1573](https://github.com/superseriousbusiness/gotosocial/issues/1573), [Issue #2227](https://github.com/superseriousbusiness/gotosocial/issues/2227), [Issue #2523](https://github.com/superseriousbusiness/gotosocial/issues/2523) |
@@ -27,7 +26,7 @@ description: Owu Social 的功能支持情况
 | 双因素认证 | 预计 2024 年底到 2025 年初发布 |
 | 自定义表情回应 | N/A |
 | 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
-| 多语言支持 | N/A, Owu Social 已将大多数公开页面和邮件通知翻译为中文,但设置面板仍为英文。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
+| 多语言支持 | N/A, Owu Social 为自带网页端与设置面板提供了中文支持。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
 | WebHook | N/A, 用于实现自动化的高级功能。具体参见 [Issue #2164](https://github.com/superseriousbusiness/gotosocial/issues/2164) |
 | 链接验证 | N/A, 目前你填写的链接只要正确配置了验证字段，仍能在其它支持链接验证的实例显示。具体参见 [Issue #2352](https://github.com/superseriousbusiness/gotosocial/issues/2352) |
 | HTML格式的嘟文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
