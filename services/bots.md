@@ -5,13 +5,23 @@ description: Owu One 运营的 Bot 服务
 
 # Bot服务
 
-## 哔埔市 beepboop.city <Badge text="即将上线"/>
+## 哔埔市 beepboop.city 
 
 哔埔市 beepboop.city 是 Owu One 运营的专门为 Bot 账户提供服务的 Fediverse 实例。
 
 ::: details 详情
 
-*TBD*
+目前哔埔市提供以下两个实例，均开放注册：
+
+- GoToSocial 实例：[sloth.beepboop.city](https://sloth.beepboop.city)
+- Iceshrimp.NET 实例：[shrimp.beepboop.city](https://shrimp.beepboop.city)
+
+提交注册申请： https://r.owu.one/beepboopcity-zh
+
+注：
+1. 暂不接受仅转发RSS内容的机器人的注册，我们之后（大概1-2月）会为RSS机器人创建专门的服务。但是，如果你对RSS中的内容进行了进一步处理，则可以继续申请注册。
+2. 原则上不接受使用生成式人工智能的机器人的注册，我们将根据之后的反馈确定这方面的政策。
+3. 将在之后发布具体的实例规则、使用文档和开发指引等资源。
 
 :::
 
