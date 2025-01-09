@@ -95,12 +95,18 @@ export default defineConfig({
         text: '周边服务',
         collapsed: true,
         items: [
-          { text: '机器人', link: '/services/bots' },
-          { text: 'OwKey', link: '/services/misskey' },
+          { text: 'Owkkoma', link: '/services/akkoma' },
           { text: 'Owu Board', link: '/services/board' },
+          { text: '机器人', link: '/services/bots' },
           { text: 'Owu Chat', link: '/services/chat' },
-          { text: 'Owu Social-M', link: '/services/social-m' },
+          { text: 'Owu Concurrent', link: '/services/concurrent' },
+          { text: 'Owu Friendica', link: '/services/friendica' },
+          { text: 'Owu CloudMusic', link: '/services/funkwhale' },
+          { text: 'Owu.Iceshrimp', link: '/services/iceshrimp' },
+          { text: 'MastOwuDon', link: '/services/mastodon' },
+          { text: 'OwKey', link: '/services/misskey' },
           { text: 'OwuTube', link: '/services/peertube' },
+          { text: 'Owu Social-M', link: '/services/social-m' },
           { text: 'Owu Write', link: '/services/write' }
         ]
       },

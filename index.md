@@ -12,10 +12,10 @@ hero:
       link: /about
     - theme: alt
       text: 常见问题
-      link: /faq/clients
+      link: /faq/fediverse
     - theme: alt
       text: 周边服务
-      link: /services/write
+      link: /services/owkkoma
   image:
     src: /logo.webp
     alt: Owu Social Logo
