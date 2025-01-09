@@ -6,7 +6,7 @@ description: Owu One 运营的 Lemmy 实例
 # Owu Board <Badge text="Beta" type="warning"/>
 
 ::: warning 本实例处于测试阶段
-运行一段时间（大约三个月）后将视用户数、用户活跃情况等因素决定是否保留。详见[测试说明](https://bdl.owu.one/post/1)。
+2025.03.30 后将视用户数、用户活跃情况等因素决定是否保留。详见[测试说明](https://bdl.owu.one/post/1)。
 :::
 
 Owu Board 是 Owu One 运营的中文 Lemmy 实例。

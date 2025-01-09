@@ -16,10 +16,12 @@ description: Owu One 运营的 Bot 服务
 - GoToSocial 实例：[sloth.beepboop.city](https://sloth.beepboop.city)
 - Iceshrimp.NET 实例：[shrimp.beepboop.city](https://shrimp.beepboop.city)
 
+上述实例均提供了 Mastodon API 支持。如果你使用 Mastodon API 开发机器人，可以较为轻松地迁移到哔埔市。
+
 提交注册申请： https://r.owu.one/beepboopcity-zh
 
 注：
-1. 暂不接受仅转发RSS内容的机器人的注册，我们之后（大概1-2月）会为RSS机器人创建专门的服务。但是，如果你对RSS中的内容进行了进一步处理，则可以继续申请注册。
+1. 暂不接受仅转发RSS内容的机器人的注册，我们之后（大概2025年1-2月）会为RSS机器人创建专门的服务。但是，如果你对RSS中的内容进行了进一步处理，则可以继续申请注册。
 2. 原则上不接受使用生成式人工智能的机器人的注册，我们将根据之后的反馈确定这方面的政策。
 3. 将在之后发布具体的实例规则、使用文档和开发指引等资源。
 
