@@ -37,6 +37,7 @@ Owu Social 使用了以下表情包，特此声明并表示感谢。如有侵权
 | JokeBear | [Nangroo](https://x.com/ngntrtr) |
 | MellowCroquette | [Nangroo](https://x.com/ngntrtr) |
 | Neocat | [@volpeon@is-a.wyvern.rip](https://is-a.wyvern.rip/@volpeon) |
+| NeoDuke | [melontini/neoduke](https://github.com/melontini/neoduke) |
 | Symbols | 各平台标识作者 |
 | TransFormersMTE | [Tomy](https://www.takaratomy.co.jp/), [Hasbro](https://corporate.hasbro.com/), 导入自 stelpolva.moe |
 | 小豆泥 | [Nobeko](https://x.com/yamanobejin) |
