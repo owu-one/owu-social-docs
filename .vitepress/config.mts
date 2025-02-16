@@ -18,7 +18,7 @@ export default defineConfig({
     ['link', { rel: 'manifest', href: '/site.webmanifest' }]
   ],
   sitemap: {
-    hostname: "https://scg-docs.owu.one"
+    hostname: "https://docs.social.owu.one"
   },
   srcExclude: [
     '**/README.md',
