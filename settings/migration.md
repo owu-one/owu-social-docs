@@ -53,6 +53,116 @@ Owu Social 支持进行账户迁移。这使您可以从其它账户迁移到您
 迁移账户后，您可能希望将之前账户的关注列表导入到您的 GoToSocial 账户中。可以在[此处](overview.md#导入-import)了解如何通过设置面板执行此操作。
 :::
 
+::: details 【实验性功能】导入之前的嘟文
+
+Owu Social 目前**实验性支持**导入之前的嘟文。目前，你可以使用第三方工具 slurp 从 Mastodon 格式的嘟文存档中导入你之前的嘟文。
+
+使用此工具有一定的技术门槛，如果你不希望进行繁琐的安装和配置，请考虑 [联系管理员](/contact.md)，向其发送你的嘟文存档，请求管理员代为导入；或等待更为正式的导入功能上线。
+
+## 前提
+
+1. 你需要在你设备的 命令提示符/终端 完成操作。如果你在移动设备中使用终端模拟器，你需要确保该模拟器提供了可以编译运行 Go 语言程序的环境。
+2. 你需要提前准备好你的 Mastodon 格式的嘟文存档：
+    如果你之前的账号在 Mastodon（假设你的实例处于4.0及以上版本），你可以在原实例自带的网页端登录你的Mastodon账号，然后点击右侧或顶栏菜单中的“偏好设置”，进入“导入与导出”，请求并下载你的存档。
+    如果你之前的账号在其它平台，你需要设法确保导出的嘟文符合Mastodon的格式。
+    目前尚不支持从旧的 GoToSocial 账号导入嘟文。
+
+## 导入范围
+
+目前，符合以下全部条件的嘟文才可以被导入：
+
+1. 之前未被导入：运行导入时， slurp 会根据你传入的数据来尝试匹配之前已经被成功导入的嘟文。如果匹配成功，则不会导入。
+2. 嘟文的可见性必须是 **公开** 或 **不列出**： 目前的实现中，导入仅粉丝可见的嘟文和私信有可能会你之前的嘟文大量涌入你的新账号的粉丝的时间线，或导致之前和你互动的人收到重复通知，产生骚扰。因此目前仅支持上述两种可见性。
+3. 如果该嘟文是对另一条嘟文的回复，那么该嘟文的回复对象必须也是你之前的嘟文。
+4. 嘟文中不能提及其它用户，原因同 2.
+5. 如果嘟文中含有自定义表情符号，那么目标站点必须存在具有**相同短代码**的自定义表情。
+6. 嘟文不可以是转嘟。
+
+## 步骤
+
+### 1. 配置 Golang 环境
+
+我们需要配置 Golang 环境： 
+
+如果你使用 Windows： 建议访问 [Go 官方下载页面](https://golang.org/dl/)，根据你的 Windows 系统（32 位或 64 位），下载相应的 MSI 安装包。下载完成后像安装其它普通软件一样安装，保持默认设置即可。
+
+如果你使用 macOS： 也可以参照上方 Windows 部分给出的下载页面。不过使用 homebrew 进行安装可能是更为快捷的选择。
+
+如果你使用 Linux： 你可以搜索"你的系统名字 + golang 安装"，根据教程操作。
+
+然后，打开命令提示符（按 Win+R 输入 `cmd` 并回车），输入以下命令检查 Go 版本：
+
+```
+go version
+```
+
+如果显示出类似 `go version go1.xx windows/amd64` 的信息，则说明安装成功。
+
+### 2. 下载 slurp 源代码
+
+如果你没有安装 Git，也不想安装新软件，你可以访问[slurp的源代码存储库](https://github.com/VyrCossont/slurp)，点击代码目录上方的绿色按钮“Code”，然后选择“Download as zip”，即可成功下载。下载成功后，你需要对
+
+如果你[安装了 Git](https://git-scm.com/downloads)，你可以通过以下步骤下载源代码：
+
+1. 打开命令提示符（按 Win+R 输入 `cmd` 并回车）或终端，切换到你认为合适的下载目录（命令格式类似`cd <你要切换到的目标位置>`，如果运行失败可以自行搜索相关关键词）
+2. 运行以下命令，下载 slurp 的源代码存储库副本： `git clone https://github.com/VyrCossont/slurp.git`
+
+### 3. 编译 slurp 可执行文件
+
+我们参考上一步中（2.1）对于切换目录的说明，让我们的命令提示符/终端切换到 slurp 源代码的所在目录。
+
+然后，我们需要运行：
+
+```
+go mod download
+go build
+```
+
+如果你在运行 go mod download 时发现下载进度十分缓慢，你可能需要配置你所在地区的镜像源。以中国大陆为例，你需要按下`Ctrl/Command + C`中止当前进程，然后先执行 `go env -w GOPROXY=https://goproxy.cn,direct`，再运行上述两个命令。
+
+这一步结束时，你应该会在 slurp 的源代码目录中看到名为 `slurp.exe` 或 `slurp` 的可执行文件。
+
+如果你运行 go mod download 命令时遇到类似 `go: no modules specified (see 'go help mod download')` 的错误，这是因为你没有进入正确的源代码目录，正确的源代码目录应该包含 `README.md`、`go.mod` 和 `go.sum` 等文件。
+
+### 4. 登录目标账户
+
+执行以下命令：
+
+```
+./slurp auth login --user <你的本站用户名>@scg.owu.one
+```
+
+例如，如果你的本站用户名是 `user1`（完整用户名： `@user1@scg.owu.one`），那么你需要执行 `./slurp auth login --user @user1@scg.owu.one`
+
+按下回车后，应该会自动弹出浏览器窗口，供你输入账号、密码等进行授权。
+
+授权后，授权页面会展示一串授权代码，你需要将其复制下来，回到命令提示符中粘贴（按下鼠标右键即可直接粘贴或从菜单中粘贴），然后回车，即可看到登录成功提示。
+
+为了验证登录是否成功，你可以运行 `./slurp auth whoami` 命令，看看你的用户名是否与你刚才输入的用户名相同。
+
+### 5. 准备存档文件
+
+为了减少叙述篇幅，在这一步，我们假定你进行了以下操作：
+
+1. 你已经解压了你的 Mastodon 账号存档
+2. 你已经将你的 Mastodon 账号存档解压后的目录复制/移动到了上一步我们编译的 slurp 可执行文件所在目录。我们假设存档目录名称为 my_archive。
+3. 打开 my_archive 目录时，我们应该直接看到一些 json 文件和 media_attachments 文件夹，不应再有目录嵌套。例如：如果你进入了 my_archive 目录，只看到该目录下有一个 archive-20250101 的文件夹，这种情况就是刚刚提到的目录嵌套，是错误的。
+
+### 6. 运行导入命令
+
+执行以下命令：
+
+```
+./slurp --user <你的本站用户名>@scg.owu.one archive import --file my_archive --status-map-file my_archive/status-map.json --attachment-map-file my_archive/attachment-map.json
+```
+
+例如，如果你的本站用户名是 `user1`（完整用户名： `@user1@scg.owu.one`），那么你需要执行 `./slurp --user @user1@scg.owu.one archive import --file my_archive --status-map-file my_archive/status-map.json --attachment-map-file my_archive/attachment-map.json`
+
+slurp 会输出相关信息，其中包括导出后新创建的嘟文链接。你可以打开上述链接验证导入是否成功。
+
+如果遇到了错误，你可以截图并向管理员反馈。一般而言错误都是由于相关嘟文不符合“导入范围”中的条件导致的。
+
+:::
 
 ## 迁出
 
