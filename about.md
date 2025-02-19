@@ -6,7 +6,7 @@ description: Owu Social 的站点介绍
 # 关于 Owu Social
 
 ::: tip 提示
-对这里提到的一些术语不熟悉？可以先看看[认识联邦宇宙](/faq/fediverse.md)。
+对这里提到的一些术语不熟悉？可以先看看[认识联邦宇宙](/guide/fediverse.md)。
 :::
 
 **Owu Social** 是去中心化社交媒体服务提供者。你可以使用 Owu Social 的服务与本站内外、同在开放网络下的任何人交流，按照你想要的形式自由地发布你的想法。

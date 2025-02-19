@@ -27,7 +27,7 @@ Owu Social 没有算法推荐，你在你自己的时间线（主页时间线）
   - 如果你只需要单项
 - **BlueSky**: BlueSky 与联邦宇宙的互联性主要通过 Bridgy Fed 项目实现，你可以尝试打开你关注的人的主页，看他们有没有在账号简介、置顶帖文中包含`@<bluesky用户名>@bsky.brid.gy`格式的账户，如果有，就可以复制对应的用户名，在 Owu Social 搜索并关注。你也可以直接在Owu Social搜索`@<bluesky用户名>@bsky.brid.gy`，看看是否会有结果出现。
   - 实测发现，Birdgy Fed与GoToSocial目前无法正常联合，此问题已被记录，预计将在将在v0.18修复。
-- **Fediverse**: 要从其它 Fediverse 实例迁移关注信息等数据，你可以直接在[设置面板](https://scg.owu.one/settings)中导入它们，参见[导出和导入](/settings/overview.md#导入-import)。 
+- **Fediverse**: 要从其它 Fediverse 实例迁移关注信息等数据，你可以直接在[设置面板](https://scg.owu.one/services/gotosocial)中导入它们，参见[导出和导入](/services/gotosocial/settings-overview.md#导入-import)。 
 :::
 
 ::: details 浏览本站与跨站时间线

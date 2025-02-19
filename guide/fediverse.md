@@ -45,7 +45,7 @@ Mastodon被很多中文用户称作“长毛象”。与推特的命名规则类
 
 更进一步说，你还可以建立自己的实例！这样你就可以最大程度地构建和掌握自己的社交网络。如果你愿意，你还可以邀请你的朋友来你的实例注册账号 —— 社区就是这样一点一点建立起来的。
 
-我们在上一节[去中心化](#去中心化)中提到，大多数联邦宇宙软件都提供[导入/导出](/settings/overview.md#导出和导入-export-and-import)和[迁移](/settings/migration.md)功能。这也是开放互联特性的一种体现。
+我们在上一节[去中心化](#去中心化)中提到，大多数联邦宇宙软件都提供[导入/导出](/services/gotosocial/settings-overview.md#导出和导入-export-and-import)和[迁移](/services/gotosocial/migration.md)功能。这也是开放互联特性的一种体现。
 
 ### 合乎道德
 

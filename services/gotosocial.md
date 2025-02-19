@@ -121,8 +121,8 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 | HTML格式的贴文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
 | 改变媒体附件缩略图的焦点 | N/A, 具体参见 [Issue #2593](https://github.com/superseriousbusiness/gotosocial/issues/2593) |
 | 全站公告 | N/A, 具体参见 [Issue #2621](https://github.com/superseriousbusiness/gotosocial/issues/2621) |
-| 更广泛的搜索范围(搜索收藏、点赞、转嘟) | N/A, 已有搜索功能参见[搜索](search.md)。功能讨论参见 [Issue #2935](https://github.com/superseriousbusiness/gotosocial/issues/2935) |
-| 中文搜索优化 | N/A, 已有搜索功能参见[搜索](search.md) |
+| 更广泛的搜索范围(搜索收藏、点赞、转嘟) | N/A, 已有搜索功能参见[搜索](/guide/search.md)。功能讨论参见 [Issue #2935](https://github.com/superseriousbusiness/gotosocial/issues/2935) |
+| 中文搜索优化 | N/A, 已有搜索功能参见[搜索](/guide/search.md) |
 | 通知分组 | N/A, 具体参见 [Issue #3408](https://github.com/superseriousbusiness/gotosocial/issues/3408) |
 | 更多导入支持 | N/A, 具体参见 [Issue #3462](https://github.com/superseriousbusiness/gotosocial/issues/3462), [Issue #3463](https://github.com/superseriousbusiness/gotosocial/issues/3463) |
 | 将话题添加到列表 | N/A, 具体参见 [Issue #3484](https://github.com/superseriousbusiness/gotosocial/issues/3484) |
@@ -146,7 +146,7 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 
 目前你可以在此查看对 Owu Social 设置面板的各项配置的说明：
 
-- [设置面板概述与基础设置](./gotosocial/overview.md)
+- [设置面板概述与基础设置](./gotosocial/settings-overview.md)
 - [自定义CSS](./gotosocial/custom-css.md)
 - [互动规则](./gotosocial/interaction-control.md)
 - [迁移](./gotosocial/migration.md)
