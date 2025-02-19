@@ -71,7 +71,7 @@ Mastodon被很多中文用户称作“长毛象”。与推特的命名规则类
 | --------------------------------------- | ------------------------------------------------------------ |
 | [Mastodon](https://joinmastodon.org)    | 联邦宇宙中最为流行的软件。如果你不想花太多时间去思考和比较，那就“随大流”选择Mastodon吧。<br />以下派生软件也属于Mastodon系列: Mastodon-Glitch、Hometown等。 |
 | [Misskey](https://misskey-hub.net)      | 有着华丽而现代的界面和丰富的功能，最有特色的功能是支持**自定义表情回应**。<br />Misskey有很多派生软件: Sharkey、Foundkey、Cherrypick等。它们和Misskey一样出色，往往还有自己的特色改进。 |
-| [GoToSocial](https://gotosocial.org)    | 与Mastodon完全兼容，特点是隐私优先和轻量化。本文档所属实例[Owu Social](https://scg.owu.one)就是一个GoToSocial实例。 |
+| [GoToSocial](https://gotosocial.org)    | 与Mastodon完全兼容，特点是隐私优先和轻量化。 |
 | [Pleroma](https://pleroma.social/)      | 与Mastodon完全兼容，架构轻量化，界面较为经典，也支持自定义表情回应等很多Mastodon还不支持的特色功能。<br />Pleroma也有自己的派生软件，其中较为知名的是 [Akkoma](https://akkoma.social/) |
 | [Writefreely](https://writefreely.org/) | 极简博客软件。如果你的内容以长文章为主，Writefreely是你在联邦宇宙的首选平台。 |
 | [Plume](https://joinplu.me/)            | 同样是博客软件，适合写长文章和文集。                         |

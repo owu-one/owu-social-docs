@@ -45,7 +45,7 @@ Owu Social 为你的个人资料网页提供了多种主题选项，以改变其
 - 描述与他人互动时的边界和偏好。
 - 链接您常用的标签。
 
-简介接受 `plain`(纯文本) 或 `markdown` 格式。这取决于 [发帖设置](/faq/posting.md) 中的默认贴文格式设置。
+简介接受 `plain`(纯文本) 或 `markdown` 格式。这取决于 [发帖设置](/guide/posting.md) 中的默认贴文格式设置。
 
 #### 个人资料字段 (Profile Fields)
 

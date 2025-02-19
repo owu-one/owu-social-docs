@@ -1,19 +1,22 @@
 ---
 title: Owu Concurrent
-description: Owu Concurrent 是 Owu One 运营的 Concurrent 实例。
+description: Owu Concurrent 是 Owu One! 运营的 Concurrent 实例。
 ---
 
 # Owu Concurrent
 
-::: warning 本实例处于测试阶段
-2025.03.30 后将视用户数、用户活跃情况等因素决定是否保留。
+::: info 附属服务维护说明
+由于时间和成本限制，我们目前首先保证此服务正常运行，内容/外观/功能改进计划可能实装得较为缓慢。你应该自行导入或以其它方式设法自行发现内容，构建自己的信息流。并主动向管理员提出功能请求以获取该功能的具体实装计划。
 :::
 
 ## 地址
 
-**[https://sct.owu.one](https://sct.owu.one)**
+**实例地址：** **[sct.owu.one](https://sct.owu.one)**
+**网页客户端地址：** **[scw.owu.one](https://scw.owu.one)**
 
 ## 简介
+
+Owu Concurrent 是 Owu One! 运营的 Concurrent 实例。
 
 1. Concurrent 不是原生 ActivityPub 平台，但提供 ActivityPub 支持。
 2. Concurrent 采用助记词作为唯一登录凭据，采用根密钥+子密钥，特权模式+普通模式进行身份管理 —— a.k.a 登录必须输入生成的奇妙咒语，不能设定自己的密码
@@ -23,7 +26,3 @@ description: Owu Concurrent 是 Owu One 运营的 Concurrent 实例。
 ## 注册
 
 Owu Concurrent 目前采取邀请注册制，如果你想在此注册账号，请填写此表单：https://r.owu.one/owuconcurrent
-
-::: info 注意
-目前仅提供全功能实例节点，目前必须使用官方的 concrnt.world 网页客户端，官方客户端汉化不完整，可能夹杂部分日文。
-:::

@@ -1,6 +1,6 @@
 ---
 title: 内容规范
-description: Owu Social的对于合理使用行为的规定。
+description: Owu Social 对于合理使用行为的规定。
 ---
 
 # 实例规则

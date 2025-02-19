@@ -1,6 +1,6 @@
 ---
 title: 规则
-description: Owu Social 的实例规则
+description: Owu Social 的站点规则
 ---
 
 # 规则

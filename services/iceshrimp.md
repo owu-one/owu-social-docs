@@ -1,13 +1,9 @@
 ---
 title: Owu.Iceshrimp
-description: Owu.Iceshrimp 是 Owu One 运营的 Iceshrimp.NET 实例。
+description: Owu.Iceshrimp 是 Owu One! 运营的 Iceshrimp.NET 实例。
 ---
 
 # Owu.Iceshrimp
-
-::: warning 本实例处于测试阶段
-2025.03.30 后将视用户数、用户活跃情况等因素决定是否保留。
-:::
 
 ## 地址
 
@@ -15,7 +11,9 @@ description: Owu.Iceshrimp 是 Owu One 运营的 Iceshrimp.NET 实例。
 
 ## 简介
 
-Iceshrimp.NET 是一个联邦宇宙软件，它的主要特色如下：
+Owu.Iceshrimp 是 Owu One! 运营的 Iceshrimp.NET 实例。
+
+Iceshrimp.NET 是由 Iceshrimp (Misskey Fork) 开发团队重新编写的一款联邦宇宙软件，具有以下功能：
 
 1. 较为全面的 Mastodon API 支持，支持通知推送
 2. 较为全面的迁移支持：支持以站内迁移方式修改用户名，支持迁移后继续使用原有账户
@@ -23,8 +21,12 @@ Iceshrimp.NET 是一个联邦宇宙软件，它的主要特色如下：
 
 ## 注册
 
-Owu Social-M 目前采取邀请注册制，如果你想在此注册账号，请填写此表单：https://r.owu.one/owuiceshrimp
+Owu.Iceshrimp 目前开放注册，要注册账号，请填写此表单：https://forms.owu.one/lR76 。管理员将查看你提交的表单，并向你发送后续操作指引。
 
-::: info 维护说明
-由于时间和成本限制，我们目前首先保证此服务正常运行，内容/外观/功能改进计划可能实装得较为缓慢。你应该自行导入或以其它方式设法自行发现内容，构建自己的信息流。并主动向管理员提出功能请求以获取该功能的具体实装计划。
+::: info 注册说明
+
+- 注册时需要填写可用的邮箱地址
+- 注册时需要说明注册理由
+- 注册需要管理员手动批准
+
 :::

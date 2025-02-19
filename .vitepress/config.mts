@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Owu Social 食用说明",
-  titleTemplate: ":title - Owu Social食用说明",
-  description: "Owu Social 的站点文档，包含关于站点的基础信息、常见问题、周边服务、开发文档等内容。",
+  title: "Owu Social",
+  titleTemplate: ":title - Owu Social",
+  description: "Owu Social 是去中心化社交媒体的一部分，提供 GoToSocial 等十余项社交媒体服务。",
   lang: "zh-CN",
   cleanUrls: true,
   lastUpdated: true,
@@ -14,11 +14,11 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Owu Social 食用说明' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Owu Social' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }]
   ],
   sitemap: {
-    hostname: "https://docs.social.owu.one"
+    hostname: "https://social.owu.one"
   },
   srcExclude: [
     '**/README.md',
@@ -29,12 +29,8 @@ export default defineConfig({
     logo: "/favicon.svg",
     siteTitle: false,
     nav: [
-      { text: '链接',
-        items: [
-          { text: 'Owu Social', link: 'https://scg.owu.one' },
-          { text: '服务状态', link: 'https://status.owu.one' },
-          { text: '周边服务', link: '/services/'}
-        ]
+      { text: '服务状态',
+        link: 'https://status.owu.one'
       }
     ],
     sidebar: [
@@ -43,7 +39,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '关于本站', link: '/about' },
-          { text: '实例规则',
+          { text: '站点规则',
             collapsed: true,
             items: [
               { text: '内容规范', link: '/rules/content' },
@@ -66,56 +62,51 @@ export default defineConfig({
         ]
       },
       {
-        text: '常见问题',
+        text: '主要服务',
         collapsed: false,
         items: [
-          { text: '认识联邦宇宙', link: '/faq/fediverse' },
-          { text: '注册', link: '/faq/sign-up' },
-          { text: '登录与客户端', link: '/faq/clients' },
-          { text: '发现内容', link: '/faq/discover' },
-          { text: '发帖与互动', link: '/faq/posting' },
-          { text: '搜素', link: '/faq/search' },
-          { text: '过滤、静音与屏蔽', link: '/faq/filter' },
-          { text: '功能支持', link: '/faq/feature' },
-          { text: '兼容性', link: '/faq/compatibility' },
-          { text: '隐私与安全', link: '/faq/privacy-and-security' }
+          { text: 'Owu Social-G', link: '/services/gotosocial' },
+          { text: 'Owu.Iceshrimp', link: '/services/iceshrimp' },
+          { text: 'Owu Social-M', link: '/services/mitra' },
+          { text: 'Owu Chat', link: '/services/chat' },
+          { text: 'Owu Write', link: '/services/write' },
+          { text: 'Owu Board', link: '/services/board' },
+          { text: 'OwKey', link: '/services/misskey' }
         ]
       },
       {
-        text: '设置',
-        collapsed: true,
+        text: '使用指引',
+        collapsed: false,
         items: [
-          { text: '设置面板简介', link: '/settings/overview' },
-          { text: '自定义样式', link: '/settings/custom-css' },
-          { text: '账户迁移', link: '/settings/migration' },
-          { text: '互动控制', link: '/settings/interaction-control' },
+          { text: '认识联邦宇宙', link: '/guide/fediverse' },
+          { text: '注册', link: '/guide/sign-up' },
+          { text: '登录与客户端', link: '/guide/clients' },
+          { text: '发现内容', link: '/guide/discover' },
+          { text: '发帖与互动', link: '/guide/posting' },
+          { text: '搜索', link: '/guide/search' },
+          { text: '过滤、静音与屏蔽', link: '/guide/filter' },
+          { text: '隐私与安全', link: '/guide/privacy-and-security' }
         ]
       },
       {
-        text: '周边服务',
+        text: '附属服务',
         collapsed: true,
         items: [
           { text: 'Owkkoma', link: '/services/akkoma' },
-          { text: 'Owu Board', link: '/services/board' },
           { text: '机器人', link: '/services/bots' },
-          { text: 'Owu Chat', link: '/services/chat' },
+          { text: 'Owu Bsky', link: '/services/bsky' },
           { text: 'Owu Concurrent', link: '/services/concurrent' },
           { text: 'Owu Friendica', link: '/services/friendica' },
           { text: 'Owu CloudMusic', link: '/services/funkwhale' },
-          { text: 'Owu.Iceshrimp', link: '/services/iceshrimp' },
           { text: 'MastOwuDon', link: '/services/mastodon' },
-          { text: 'OwKey', link: '/services/misskey' },
           { text: 'OwuTube', link: '/services/peertube' },
-          { text: 'Owu Social-M', link: '/services/social-m' },
-          { text: 'Owu Write', link: '/services/write' }
         ]
       },
       {
         text: '其他',
         collapsed: true,
         items: [
-          { text: '开发文档', link: '/development' },
-          { text: '相关实例', link: '/instances' },
+
           { text: '服务状态', link: '/status' },
           { text: '更新日志', link: '/changelog' },
           { text: '完善文档', link: '/contribute' },
@@ -175,7 +166,7 @@ export default defineConfig({
     },
     footer: {
       message: '本页面内容采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 协议授权',
-      copyright: `© 2023 - ${new Date().getFullYear()} Owu One`,
+      copyright: `© 2023 - ${new Date().getFullYear()} Owu One!`,
     }
   },
 })
