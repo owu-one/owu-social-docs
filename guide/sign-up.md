@@ -15,7 +15,7 @@ Owu Social 提供十余项去中心化社交媒体服务。下面以表格形式
 | [Owu Social-M](/services/mitra.md) | 微博 | 支持游牧身份等多种最新的联邦宇宙扩展协议 | [Mitra](https://codeberg.org/silverpill/mitra) |
 | [Owu.Iceshrimp](/services/iceshrimp.md) | 微博 | 对 Mastodon API 兼容较好，同时支持 MFM、表情回应等多项从 Misskey/Pleroma 引入的特性 | [Iceshrimp.NET](https://iceshrimp.net) |
 | [Owu Chat-M](/services/matrix.md) | 即时通信 | 支持 Sliding Sync、Element Call 等多种下一代 Matrix 规范 | [Conduwuit](https://github.com/girlbossceo/conduwuit) |
-| [Owu Chat-X](/services/xmpp.md) | 即时通信 ｜ 通过所有 Conversations.im 功能扩展兼容测试 | [Prosody](https://prosody.im) |
+| [Owu Chat-X](/services/xmpp.md) | 即时通信 | 通过所有 Conversations.im 功能扩展兼容测试 | [Prosody](https://prosody.im) |
 | [Owu Write](/services/write.md) | 博客 | 博文能被联合到其它联邦宇宙站点、提供较为完整的中文字体支持、单账号支持博客多开 | [WriteFreely](https://writefreely.org) |
 | [Owu Board](/services/lemmy.md) | 社群讨论 | - | [Lemmy](https://join-lemmy.org/) |
 | [OwKey](/services/misskey.md) | 微博 | - | [Sharkey](https://activitypub.software/TransFem-org/Sharkey) |
