@@ -97,6 +97,13 @@ Owu Social 的各个软件对上述格式的支持程度如下：
 
 * 其它实现的支持情况有待补充。
 
+::: details MFM - 对 Markdown 的扩展
+
+如果你使用 Pleroma系（如[Owkkoma](https://akm.owu.one)）或 Misskey系（如[OwKey](https://msk.owu.one)），那么在标准 Markdown 语法外你还可以使用一些扩展语法：
+
+* 待补充。
+
+:::
 
 ## 媒体附件
 
@@ -146,44 +153,3 @@ Owu Social 的各个平台对于上传的媒体有各自的上传限制，限制
 | Owu Social-G | 图片：`.jpg .jpeg .gif .webp .png .apng`<br/>音频：`.mp2 .mp3 .mpeg .flac .ogg .mp4 .m4a .wma .mka`<br/>视频：`.avi .ogv .mp4 .mov .wmv .webm .mkv` | 图片最大10M，音/视频最大100M | 9个 |
 
 * 其它实现的支持情况有待补充。
-
-::: details 查看某个实例的上传限制
-
-如果一个站点支持 Mastodon API，你可以尝试通过 `/api/v2/instance` 和 `/api/v1/instance` 端点查看上传限制。
-
-例如，对于 Owu Social-G，我们可以访问： `https://scg.owu.one/api/v2/instance` :
-
-```json
-    //...
-    "supported_mime_types": [
-        "image/jpeg",
-        "image/gif",
-        "image/webp",
-        "audio/mp2",
-        "audio/mp3",
-        "audio/mpeg",
-        "video/x-msvideo",
-        "audio/flac",
-        "audio/x-flac",
-        "image/png",
-        "image/apng",
-        "audio/ogg",
-        "video/ogg",
-        "audio/mp4",
-        "video/mp4",
-        "video/quicktime",
-        "audio/x-ms-wma",
-        "video/x-ms-wmv",
-        "video/webm",
-        "audio/x-matroska",
-        "video/x-matroska"
-      ],
-      "image_size_limit": 10000000,
-      "image_matrix_limit": 2147483647,
-      "video_size_limit": 100000000,
-      "video_frame_rate_limit": 2147483647,
-      "video_matrix_limit": 2147483647
-    // ...
-```
-
-:::

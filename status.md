@@ -12,8 +12,9 @@ description: Owu Social 的服务状态
 | Web 客户端 - Mastodon 独立版 | ![服务状态](https://status.owu.one/api/badge/38/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/38/uptime/168?style=for-the-badge) |
 | Owu Social-G | ![服务状态](https://status.owu.one/api/badge/49/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/49/uptime/168?style=for-the-badge) |
 | Owu Social - M | ![服务状态](https://status.owu.one/api/badge/50/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/50/uptime/168?style=for-the-badge) |
+| Owu Social - X | ![服务状态](https://status.owu.one/api/badge/73/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/73/uptime/168?style=for-the-badge) |
 | Owu.Iceshrimp | ![服务状态](https://status.owu.one/api/badge/56/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/56/uptime/168?style=for-the-badge) |
-| Owu Chat | ![服务状态](https://status.owu.one/api/badge/41/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/41/uptime/168?style=for-the-badge) |
+| Owu Chat-M | ![服务状态](https://status.owu.one/api/badge/41/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/41/uptime/168?style=for-the-badge) |
 | Owu Write | ![服务状态](https://status.owu.one/api/badge/60/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/60/uptime/168?style=for-the-badge) |
 | Owu Board | ![服务状态](https://status.owu.one/api/badge/21/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/21/uptime/168?style=for-the-badge) |
 | OwKey | ![服务状态](https://status.owu.one/api/badge/40/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/40/uptime/168?style=for-the-badge) |

@@ -22,3 +22,14 @@ PeerTube 是为联邦宇宙打造的视频平台，可以理解为 YouTube 的 F
 ## 注册
 
 访问 https://tube.owu.one ，点击“请求账户”按钮，按照指引提交注册申请即可。
+
+## 客户端
+
+Owu Tube 由 PeerTube 驱动，用于收看视频，因此需要专门的客户端。
+
+| 客户端 | 支持平台 | 说明 |
+| --- | --- | --- |
+| [PeerTube Web](https://tube.owu.one) | Web | Owu Tube 的默认客户端 |
+| [PeerTube Android](https://play.google.com/store/apps/details?id=org.framasoft.peertube) | Android | PeerTube 的官方 Android 客户端 |
+| [PeerTube iOS](https://apps.apple.com/us/app/peertube/id6737834858) | iOS | PeerTube 的官方 iOS 客户端 |
+| [P2Play](https://gitlab.com/agosto182/p2play) | Android | PeerTube 的第三方 Android 客户端 |

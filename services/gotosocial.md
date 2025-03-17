@@ -5,13 +5,13 @@ description: Owu Social-G 是 Owu One! 运营的 GoToSocial 实例。
 
 # Owu Social-G
 
+[Owu Social-G](https://scg.owu.one) 是 Owu One! 运营的中文 [GoToSocial](https://gotosocial.org) 实例。这是 [Owu Social](https://social.owu.one) 的旗舰服务。
+
+站点规则和服务条款参见左侧导航栏或左上角“目录”菜单中的“基础信息”部分。
+
 ## 地址
 
 **[https://scg.owu.one](https://scg.owu.one)**
-
-## 简介
-
-[Owu Social-G](https://scg.owu.one) 是一个中文 [GoToSocial](https://gotosocial.org) 实例。
 
 ### 特色
 
@@ -32,6 +32,80 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 
 :::
 
+## 客户端
+
+GoToSocial 的网页仅用于展示，没有可操作功能。你可以自由选择第三方客户端进行使用。
+
+以下客户端与 Owu Social-G 兼容良好，推荐使用。更多客户端参见 [使用指引 - 客户端](/guide/clients.md)。
+
+::: details Web
+
+- [Phanpy](https://phanpy.owu.one) <Badge text="推荐" type="info" />
+- [PL-FE](https://plfe.owu.one) <Badge text="支持设置互动规则" type="info" />
+- [Elk](https://elk.owu.one)
+- [Mastodon FE](https://masto-fe.owu.one) (Mastodon 独立前端)
+
+:::
+
+::: details Android
+
+- [Moshidon](https://github.com/LucasGGamerM/moshidon/releases/latest) <Badge text="推荐" type="info" />
+- [Tusky](https://tusky.app/)
+- [Fread](https://play.google.com/store/apps/details?id=com.zhangke.fread) <Badge text="闭源" type="info" />
+
+:::
+
+::: details iOS / macOS / iPadOS
+
+- [Ice Cubes](https://apps.apple.com/app/ice-cubes-for-mastodon/id6444915884) <Badge text="免费" type="info" />
+- [Mona](https://apps.apple.com/app/id1659154653) <Badge text="闭源" type="info" /> <Badge text="收费（买断制）" type="info" />
+
+:::
+
+::: details Linux
+
+- [Tuba](https://tuba.geopjr.dev)
+
+:::
+
+## 设置说明
+
+Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以在下面的链接中查看对应的设置说明：
+
+如果文档中的部分说明令你困惑，可以[联系管理员](/contact.md)。
+
+- [设置面板及各项设置的介绍与说明](https://docs.gotosocial.org/zh-cn/latest/user_guide/settings/)
+- [帖文设置](https://docs.gotosocial.org/zh-cn/latest/user_guide/posts/)
+- [搜索](https://docs.gotosocial.org/zh-cn/latest/user_guide/search/)
+- [（进阶）自定义CSS - 自己装修自己的主页](https://docs.gotosocial.org/zh-cn/latest/user_guide/custom_css/)
+- [设置与修改密码](https://docs.gotosocial.org/zh-cn/latest/user_guide/password_management/)
+- [RSS设置](https://docs.gotosocial.org/zh-cn/latest/user_guide/rss/)
+- [迁入与迁出](https://docs.gotosocial.org/zh-cn/latest/user_guide/migration/)
+- [导入你在之前的 Fediverse 站点中的数据](https://docs.gotosocial.org/zh-cn/latest/user_guide/importing_posts/)
+
+
+## 站内服务
+
+::: details GPT Bot
+
+- **用户名**：`@gpt@scg.owu.one`
+- **服务**：在发帖时提及此bot，即可调用GPT，与大模型对话。
+  - 如果你是Owu Social用户，bot将默认使用`GPT-o3-mini`回复。
+  - 如果你是外站用户，bot将默认使用`Gemini Flash 2.0`回复。
+  - 最多支持回溯所在贴文串的最近6条贴文（若回溯时积累的历史消息超过5000字则终止回溯），单条贴文最多支持识别前3张图片（支持的格式: jpg, png）
+- **响应范围**： 几乎所有联邦宇宙用户
+- **注意**： 当你在贴文中主动提及GPT Bot时，你的贴文内容将会被发送到与 GPT Bot 连接的第三方（包括 OpenAI）进行处理。请注意不要在贴文中透露任何敏感信息。
+
+:::
+
+::: details 网页存活状态检测
+
+- **用户名**：`@areuok@scg.owu.one`
+- **服务**： 提及此bot，并发送要测试的地址(不要有其他内容)，bot将会返回该地址的存活状态。(对于不确定是自己的网络问题还是网站炸了的情况可能很有用)
+- **响应范围**： 几乎所有联邦宇宙用户
+
+:::
+
 ## 兼容性
 
 下表只展示已知与 Owu Social-G 的联合存在问题的 ActivityPub 实现。问题被解决6个月后，相关的软件条目可能会被移除。
@@ -48,9 +122,9 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 
 | 软件 | 联合情况 | 问题 | 测试的实例/账户（如果有）与备注 |
 | --- | --- | --- | --- |
-| [Misskey](https://misskey-hub.net/) [📋](https://misskey.fediverse.observer/list) / [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ✅ | [Misskey #14915](https://github.com/misskey-dev/misskey/issues/14915) | 所有 2024.11.0 及之后版本的 Misskey/Sharkey 实例都可以与 Owu Social-G 无障碍联合。 |
+| [Misskey](https://misskey-hub.net/) [📋](https://misskey.fediverse.observer/list) / [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ✅ |  | |
 | [Betula](https://sr.ht/~bouncepaw/betula) [📋](https://betula.fediverse.observer/list) | ❌ |  | [@danila@links.danilax86.space](https://links.danilax86.space/@danila) |
-| [Bridgy Fed](https://fed.brid.gy/) | ☑️ | [GtS #3381](https://github.com/superseriousbusiness/gotosocial/issues/3381) | 注：目前，Owu Social-G账户已基本可以与Bridgy Fed及其账户正常联合，解引用还存在一部分问题，预计于v0.19修复。 |
+| [Bridgy Fed](https://fed.brid.gy/) | ✅ |  |  |
 | [Bonfire](https://github.com/bonfire-networks) | ⚠️ |  | https://hiti.nairatmya.org/@mossbeard |
 | [Bovine](https://codeberg.org/bovine/bovine) | ⚠️ |  | @moocow@bovine.fly.dev |
 | [Brutalinks](https://git.sr.ht/~mariusor/brutalinks) | ⚠️ |  | [@marius@brutalinks.tech](https://brutalinks.tech/~marius) |
@@ -87,6 +161,7 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 | [Tapir](https://github.com/ar-nelson/tapir) 👻 | ❓ |  | ❓ |
 | [Threads](https://threads.net) | ❌ | [GtS #2491](https://github.com/superseriousbusiness/gotosocial/issues/2491) | Threads 并不开源，实行不透明的联合规则，且未按规范返回 ActivityPub 数据，GoToSocial 无意针对 Threads 进行特殊处理。我们赞同这种做法。 |
 | [Toki](https://github.com/purifetchi/Toki) | ❓ |  | ❓ |
+| [Vernissage](https://github.com/VernissageApp/VernissageServer) [📋](https://vernissage.fediverse.observer/list) | ✅ |  | https://vernissage.pnpde.social/@d3 |
 | [Writefreely](https://github.com/writefreely/writefreely) [📋](https://writefreely.fediverse.observer/list) | ✅ |  | [@baslow@read.asorrybowl.blog](https://read.asorrybowl.blog)<br/>注：[Owu Write](https://write.owu.one) 和其它所有更新到v0.15.1及之后版本的 Writefreely 实例可与 Owu Social-G 正常联合 |
 | [write.as](https://write.as) (付费版？ Writefreely) | ⚠️ |  | [@write-as-roscoes-story@write.as](https://write.as/write-as-roscoes-story) |
 | [Wordpress](https://github.com/WordPress/wordpress-develop) [📋](https://wordpress.fediverse.observer/list) | ⚠️ / ✅ | 取决于使用的 [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) 插件 |  |
@@ -108,14 +183,13 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 | 功能 | 支持计划 |
 | --- | --- |
 | 在主页显示转发 | 已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346) |
-| 客户端授权管理 | 预计 2025 年发布, 具体参见 [Issue #1081](https://github.com/superseriousbusiness/gotosocial/issues/1081), [Issue #1573](https://github.com/superseriousbusiness/gotosocial/issues/1573), [Issue #2227](https://github.com/superseriousbusiness/gotosocial/issues/2227), [Issue #2523](https://github.com/superseriousbusiness/gotosocial/issues/2523) |
+| 多语言支持 | Owu Social 为自带网页端与设置面板提供了中文支持，目前我们正在尝试将多语言支持带往上游。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
 | 中继 | 预计 2025 年发布, Owu Social-G 通过单向订阅中继保证你能接触到广泛的内容,但你公开发布的内容目前只能依靠他人的主动关注和转发来进入其它实例。具体参见 [Issue #1123](https://github.com/superseriousbusiness/gotosocial/issues/1123), [Issue #1124](https://github.com/superseriousbusiness/gotosocial/issues/1124) |
 | 双因素认证 | 预计 2025 年发布 |
 | 自定义表情回应 | N/A |
 | 引用贴文 | N/A |
 | 仅互关可见 | N/A |
 | 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
-| 多语言支持 | N/A, Owu Social 为自带网页端与设置面板提供了中文支持。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
 | WebHook | N/A, 用于实现自动化的高级功能。具体参见 [Issue #2164](https://github.com/superseriousbusiness/gotosocial/issues/2164) |
 | 链接验证 | N/A, 目前你填写的链接只要正确配置了验证字段，仍能在其它支持链接验证的实例显示。具体参见 [Issue #2352](https://github.com/superseriousbusiness/gotosocial/issues/2352) |
 | HTML格式的贴文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
@@ -138,18 +212,9 @@ Owu Social-G 目前开放注册，访问主页即可看到注册入口。你也�
 
 | 功能 | 说明 |
 | --- | --- |
-| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631），但有计划支持双因素认证，参见上方“尚未支持的功能” |
+| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631)，但有计划支持双因素认证，参见上方“尚未支持的功能” |
 | 跨实例交互引导 | GoToSocial 提供的网页是静态的，仅供浏览。参见 [Issue #1895](https://github.com/superseriousbusiness/gotosocial/issues/1895) |
 :::
-
-## 设置说明
-
-目前你可以在此查看对 Owu Social 设置面板的各项配置的说明：
-
-- [设置面板概述与基础设置](./gotosocial/settings-overview.md)
-- [自定义CSS](./gotosocial/custom-css.md)
-- [互动规则](./gotosocial/interaction-control.md)
-- [迁移](./gotosocial/migration.md)
 
 ## 开发资源
 

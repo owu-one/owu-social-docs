@@ -31,3 +31,7 @@ Owu Write 是由 Owu One! 运营的 Writefreely 实例。你可以在这里建�
 - 注册需要管理员手动批准
 
 :::
+
+## 客户端
+
+Owu Write 由 WriteFreely 驱动。 WriteFreely 只有一个收费的[官方iOS客户端](https://apps.apple.com/us/app/writefreely/id1531530896)，因此建议直接在网页端完成操作。

@@ -68,9 +68,9 @@ export default defineConfig({
           { text: 'Owu Social-G', link: '/services/gotosocial' },
           { text: 'Owu.Iceshrimp', link: '/services/iceshrimp' },
           { text: 'Owu Social-M', link: '/services/mitra' },
-          { text: 'Owu Chat', link: '/services/chat' },
+          { text: 'Owu Chat-M', link: '/services/matrix' },
           { text: 'Owu Write', link: '/services/write' },
-          { text: 'Owu Board', link: '/services/board' },
+          { text: 'Owu Board', link: '/services/lemmy' },
           { text: 'OwKey', link: '/services/misskey' }
         ]
       },
@@ -86,6 +86,7 @@ export default defineConfig({
           { text: '搜索', link: '/guide/search' },
           { text: '过滤、静音与屏蔽', link: '/guide/filter' },
           { text: '隐私与安全', link: '/guide/privacy-and-security' }
+          // { text: '数据迁移（导入与导出）', link: '/guide/migration' }
         ]
       },
       {
@@ -93,12 +94,11 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Owkkoma', link: '/services/akkoma' },
-          { text: '机器人', link: '/services/bots' },
           { text: 'Owu Bsky', link: '/services/bsky' },
           { text: 'Owu Concurrent', link: '/services/concurrent' },
           { text: 'Owu Friendica', link: '/services/friendica' },
-          { text: 'Owu CloudMusic', link: '/services/funkwhale' },
           { text: 'MastOwuDon', link: '/services/mastodon' },
+          { text: 'Owu Chat-X', link: '/services/xmpp' },
           { text: 'OwuTube', link: '/services/peertube' },
         ]
       },
@@ -126,7 +126,9 @@ export default defineConfig({
         },
         ariaLabel: 'Fediverse',
         link: 'https://scg.owu.one/@admin',
-      }
+      },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/owu.one' },
+      { icon: 'matrix', link: 'https://matrix.to/#/#owu-social:mtx.owu.one' }
     ],
     search: {
       provider: "local",

@@ -26,3 +26,9 @@ Owu Concurrent 是 Owu One! 运营的 Concurrent 实例。
 ## 注册
 
 Owu Concurrent 目前采取邀请注册制，如果你想在此注册账号，请填写此表单：https://r.owu.one/owuconcurrent
+
+## 客户端
+
+Owu Concurrent 由 Concurrent 驱动，因此需要专门的客户端。
+
+Concurrent 目前只有一个 Web 客户端 —— Concurrent World： 你可以使用 [官方托管](https://concrnt.world) 或 [Owu Concurrent 的托管](https://scw.owu.one)。
