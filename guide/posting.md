@@ -150,6 +150,6 @@ Owu Social 的各个平台对于上传的媒体有各自的上传限制，限制
 
 | 站点 | 媒体附件格式 | 单个媒体附件大小 | 单条贴文最多包含的媒体附件数量 |
 | --- | --- | --- | --- |
-| Owu Social-G | 图片：`.jpg .jpeg .gif .webp .png .apng`<br/>音频：`.mp2 .mp3 .mpeg .flac .ogg .mp4 .m4a .wma .mka`<br/>视频：`.avi .ogv .mp4 .mov .wmv .webm .mkv` | 图片最大10M，音/视频最大100M | 9个 |
+| Owu Social-G | 图片：`.jpg .jpeg .gif .webp .png .apng .avif`<br/>音频：`.mp2 .mp3 .mpeg .flac .ogg .mp4 .m4a .wma .mka`<br/>视频：`.avi .ogv .mp4 .mov .wmv .webm .mkv` | 图片最大10M，音/视频最大100M | 9个 |
 
 * 其它实现的支持情况有待补充。
