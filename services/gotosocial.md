@@ -137,12 +137,12 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 | [Funkwhale](https://dev.funkwhale.audio/funkwhale/funkwhale) [📋](https://funkwhale.fediverse.observer/list) | ❌ |  | https://audio.pepemoss.com/@earl |
 | [Friendica](https://github.com/friendica/friendica) [📋](https://friendica.fediverse.observer/list) | ☑️ | [Friendica #14316](https://github.com/friendica/friendica/issues/14316)  | https://entropysource.ru/profile/hubbitant |
 | [Guppe](https://a.gup.pe) 👻 | ⚠️ | [Guppe #90](https://github.com/immers-space/guppe/issues/90) | `@board@a.gup.pe`<br/>注：Guppe使用的HTTP签名库较老，无法识别 Owu Social-G 的 Activity 签名。若有时间我们将尝试修复这一问题。 |
-| [Juick](https://x.juick.com/Juick) | ❌ | [GtS #3268](https://github.com/superseriousbusiness/gotosocial/issues/3268), [GtS #1820](https://github.com/superseriousbusiness/gotosocial/issues/1820)  | [@Linda-chan@juick.com](https://juick.com/Linda-chan) |
+| [Juick](https://x.juick.com/Juick) | ❌ | [GtS #3268](https://codeberg.org/superseriousbusiness/gotosocial/issues/3268), [GtS #1820](https://codeberg.org/superseriousbusiness/gotosocial/issues/1820)  | [@Linda-chan@juick.com](https://juick.com/Linda-chan) |
 | [Kepi](https://gitlab.com/marnanel/chapeau) 👻 [📋](https://kepi.fediverse.observer/list) | ❓ |  | ❓ |
 | [Kitsune](https://github.com/kitsune-soc/kitsune) | ❓ |  | ❓ |
-| [Ktistec](https://github.com/toddsundsted/ktistec) [📋](https://ktistec.fediverse.observer/list) | ⚠️ | [Ktistec #103](https://github.com/toddsundsted/ktistec/issues/103), [GtS #2991](https://github.com/superseriousbusiness/gotosocial/issues/2991)  | https://epiktistes.com/@toddsundsted |
+| [Ktistec](https://github.com/toddsundsted/ktistec) [📋](https://ktistec.fediverse.observer/list) | ⚠️ | [Ktistec #103](https://github.com/toddsundsted/ktistec/issues/103), [GtS #2991](https://codeberg.org/superseriousbusiness/gotosocial/issues/2991)  | https://epiktistes.com/@toddsundsted |
 | [Kroeg](https://puck.moe/git/kroeg) 👻 [📋](https://kroeg.fediverse.observer/list) | ⚠️ |  | https://puckipedia.com/ |
-| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ☑️ | [GtS #2697](https://github.com/superseriousbusiness/gotosocial/issues/2697), [All issues related to GtS](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial) | [user](https://lemmygrad.ml/u/yogthos), [community](https://lemmygrad.ml/c/funny)<br/>注：[Owu Board](https://bdl.owu.one) 和其它所有手动启用了Activity签名的 Lemmy 实例已经能与 Owu Social-G 正常联合。此功能支持通过配置文件或管理面板配置后，此处将标记为✅（无障碍联合） |
+| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ☑️ | [GtS #2697](https://codeberg.org/superseriousbusiness/gotosocial/issues/2697), [All issues related to GtS](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial) | [user](https://lemmygrad.ml/u/yogthos), [community](https://lemmygrad.ml/c/funny)<br/>注：[Owu Board](https://bdl.owu.one) 和其它所有手动启用了Activity签名的 Lemmy 实例已经能与 Owu Social-G 正常联合。此功能支持通过配置文件或管理面板配置后，此处将标记为✅（无障碍联合） |
 | [Letterbook](https://github.com/Letterbook/Letterbook) | ❓ |  | ❓ |
 | [Magnetar](https://git.astolfo.cool/natty/magnetar) | ❓ |  | ❓ |
 | [Mbin](https://github.com/MbinOrg/mbin) ([Kbin](https://github.com/ernestwisniewski/kbin) 的维护状态存疑) [📋](https://mbin.fediverse.observer/list) | ⚠️ | 可以关注用户，但不能关注栏目(Magzine) | [user](https://kbin.earth/u/jwr1), [magazine](https://kbin.earth/m/kbinEarth) |
@@ -154,12 +154,12 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 | [Rebased](https://gitlab.com/soapbox-pub/rebased) | ❓ |  | ❓ |
 |  |
 | [Plume](https://github.com/Plume-org/Plume) [📋](https://plume.fediverse.observer/list) | ⚠️ |  | [@paradoxal@zone.paradoxal.netlib.re](https://zone.paradoxal.netlib.re/@/paradoxal) |
-| [Seppo](https://codeberg.org/seppo/seppo) | ❌ | [GtS #2961](https://github.com/superseriousbusiness/gotosocial/issues/2961#issue-2333014325), [GtS #1186](https://github.com/superseriousbusiness/gotosocial/issues/1186) | https://seppo.social/aseppototry/o/p/ |
+| [Seppo](https://codeberg.org/seppo/seppo) | ❌ | [GtS #2961](https://codeberg.org/superseriousbusiness/gotosocial/issues/2961#issue-2333014325), [GtS #1186](https://codeberg.org/superseriousbusiness/gotosocial/issues/1186) | https://seppo.social/aseppototry/o/p/ |
 | [Shuttlecraft](https://github.com/benbrown/shuttlecraft) 👻 [📋](https://shuttlecraft.fediverse.observer/list) | ❌ |  | https://cerritos.glitch.me |
 | [Swanye](https://codeberg.org/WammKD/Swanye) | ❓ |  |  |
 | [Takahē](https://github.com/jointakahe/takahe) [📋](https://takahe.fediverse.observer/list) | ⚠️ | [Takahe #223](https://github.com/jointakahe/takahe/issues/223), [Takahe #528](https://github.com/jointakahe/takahe/issues/528) | [@wezza83@coot.vabl.dev](https://coot.vabl.dev/@wezza83@coot.vabl.dev) |
 | [Tapir](https://github.com/ar-nelson/tapir) 👻 | ❓ |  | ❓ |
-| [Threads](https://threads.net) | ❌ | [GtS #2491](https://github.com/superseriousbusiness/gotosocial/issues/2491) | Threads 并不开源，实行不透明的联合规则，且未按规范返回 ActivityPub 数据，GoToSocial 无意针对 Threads 进行特殊处理。我们赞同这种做法。 |
+| [Threads](https://threads.net) | ❌ | [GtS #2491](https://codeberg.org/superseriousbusiness/gotosocial/issues/2491) | Threads 并不开源，实行不透明的联合规则，且未按规范返回 ActivityPub 数据，GoToSocial 无意针对 Threads 进行特殊处理。我们赞同这种做法。 |
 | [Toki](https://github.com/purifetchi/Toki) | ❓ |  | ❓ |
 | [Vernissage](https://github.com/VernissageApp/VernissageServer) [📋](https://vernissage.fediverse.observer/list) | ✅ |  | https://vernissage.pnpde.social/@d3 |
 | [Writefreely](https://github.com/writefreely/writefreely) [📋](https://writefreely.fediverse.observer/list) | ✅ |  | [@baslow@read.asorrybowl.blog](https://read.asorrybowl.blog)<br/>注：[Owu Write](https://write.owu.one) 和其它所有更新到v0.15.1及之后版本的 Writefreely 实例可与 Owu Social-G 正常联合 |
@@ -182,38 +182,38 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 
 | 功能 | 支持计划 |
 | --- | --- |
-| 在主页显示转发 | 已有 [PR #3346](https://github.com/superseriousbusiness/gotosocial/pull/3346) |
-| 多语言支持 | Owu Social 为自带网页端与设置面板提供了中文支持，目前我们正在尝试将多语言支持带往上游。<br/>具体参见 [Issue #474](https://github.com/superseriousbusiness/gotosocial/issues/474) |
-| 中继 | 预计 2025 年发布, Owu Social-G 通过单向订阅中继保证你能接触到广泛的内容,但你公开发布的内容目前只能依靠他人的主动关注和转发来进入其它实例。具体参见 [Issue #1123](https://github.com/superseriousbusiness/gotosocial/issues/1123), [Issue #1124](https://github.com/superseriousbusiness/gotosocial/issues/1124) |
+| 在主页显示转发 | 已有 [PR #3346](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3346) |
+| 多语言支持 | Owu Social 为自带网页端与设置面板提供了中文支持，目前我们正在尝试将多语言支持带往上游。<br/>具体参见 [Issue #474](https://codeberg.org/superseriousbusiness/gotosocial/issues/474) |
+| 中继 | 预计 2025 年发布, Owu Social-G 通过单向订阅中继保证你能接触到广泛的内容,但你公开发布的内容目前只能依靠他人的主动关注和转发来进入其它实例。具体参见 [Issue #1123](https://codeberg.org/superseriousbusiness/gotosocial/issues/1123), [Issue #1124](https://codeberg.org/superseriousbusiness/gotosocial/issues/1124) |
 | 双因素认证 | 预计 2025 年发布 |
 | 自定义表情回应 | N/A |
 | 引用贴文 | N/A |
 | 仅互关可见 | N/A |
-| 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://github.com/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
-| WebHook | N/A, 用于实现自动化的高级功能。具体参见 [Issue #2164](https://github.com/superseriousbusiness/gotosocial/issues/2164) |
-| 链接验证 | N/A, 目前你填写的链接只要正确配置了验证字段，仍能在其它支持链接验证的实例显示。具体参见 [Issue #2352](https://github.com/superseriousbusiness/gotosocial/issues/2352) |
-| HTML格式的贴文 | N/A, 具体参见 [Issue #2555](https://github.com/superseriousbusiness/gotosocial/issues/2555) |
-| 改变媒体附件缩略图的焦点 | N/A, 具体参见 [Issue #2593](https://github.com/superseriousbusiness/gotosocial/issues/2593) |
-| 全站公告 | N/A, 具体参见 [Issue #2621](https://github.com/superseriousbusiness/gotosocial/issues/2621) |
-| 更广泛的搜索范围(搜索收藏、点赞、转嘟) | N/A, 已有搜索功能参见[搜索](/guide/search.md)。功能讨论参见 [Issue #2935](https://github.com/superseriousbusiness/gotosocial/issues/2935) |
+| 重设密码 | 部分支持,支持在已登录状态下通过[设置面板](https://scg.owu.one/settings)重设密码,具体参见 [Issue #263](https://codeberg.org/superseriousbusiness/gotosocial/issues/263)<br/>如果你忘记了密码,请[联系管理员](/contact.md) |
+| WebHook | N/A, 用于实现自动化的高级功能。具体参见 [Issue #2164](https://codeberg.org/superseriousbusiness/gotosocial/issues/2164) |
+| 链接验证 | N/A, 目前你填写的链接只要正确配置了验证字段，仍能在其它支持链接验证的实例显示。具体参见 [Issue #2352](https://codeberg.org/superseriousbusiness/gotosocial/issues/2352) |
+| HTML格式的贴文 | N/A, 具体参见 [Issue #2555](https://codeberg.org/superseriousbusiness/gotosocial/issues/2555) |
+| 改变媒体附件缩略图的焦点 | N/A, 具体参见 [Issue #2593](https://codeberg.org/superseriousbusiness/gotosocial/issues/2593) |
+| 全站公告 | N/A, 具体参见 [Issue #2621](https://codeberg.org/superseriousbusiness/gotosocial/issues/2621) |
+| 更广泛的搜索范围(搜索收藏、点赞、转嘟) | N/A, 已有搜索功能参见[搜索](/guide/search.md)。功能讨论参见 [Issue #2935](https://codeberg.org/superseriousbusiness/gotosocial/issues/2935) |
 | 中文搜索优化 | N/A, 已有搜索功能参见[搜索](/guide/search.md) |
-| 通知分组 | N/A, 具体参见 [Issue #3408](https://github.com/superseriousbusiness/gotosocial/issues/3408) |
-| 更多导入支持 | N/A, 具体参见 [Issue #3462](https://github.com/superseriousbusiness/gotosocial/issues/3462), [Issue #3463](https://github.com/superseriousbusiness/gotosocial/issues/3463) |
-| 将话题添加到列表 | N/A, 具体参见 [Issue #3484](https://github.com/superseriousbusiness/gotosocial/issues/3484) |
-| 解除“已迁移”状态 | N/A, 具体参见 [Issue #3584](https://github.com/superseriousbusiness/gotosocial/issues/3584) |
-| 网页版账户页中添加快捷复制/分享按钮 | N/A，具体参见 [Issue #3648](https://github.com/superseriousbusiness/gotosocial/issues/3648) |
-| 网页版账户页支持筛选包含媒体的贴文 | N/A，具体参见 [Issue #3650](https://github.com/superseriousbusiness/gotosocial/issues/3650) |
-| 在设置面板中查看实例黑/白名单 | N/A，具体参见 [Issue #3711](https://github.com/superseriousbusiness/gotosocial/issues/3711) |
-| 允许在隐藏“不列出”贴文时通过链接直接访问 | N/A，具体参见 [Issue #3777](https://github.com/superseriousbusiness/gotosocial/issues/3777) |
-| 邀请注册 | N/A，具体参见 [Issue #3778](https://github.com/superseriousbusiness/gotosocial/issues/3778) |
+| 通知分组 | N/A, 具体参见 [Issue #3408](https://codeberg.org/superseriousbusiness/gotosocial/issues/3408) |
+| 更多导入支持 | N/A, 具体参见 [Issue #3462](https://codeberg.org/superseriousbusiness/gotosocial/issues/3462), [Issue #3463](https://codeberg.org/superseriousbusiness/gotosocial/issues/3463) |
+| 将话题添加到列表 | N/A, 具体参见 [Issue #3484](https://codeberg.org/superseriousbusiness/gotosocial/issues/3484) |
+| 解除“已迁移”状态 | N/A, 具体参见 [Issue #3584](https://codeberg.org/superseriousbusiness/gotosocial/issues/3584) |
+| 网页版账户页中添加快捷复制/分享按钮 | N/A，具体参见 [Issue #3648](https://codeberg.org/superseriousbusiness/gotosocial/issues/3648) |
+| 网页版账户页支持筛选包含媒体的贴文 | N/A，具体参见 [Issue #3650](https://codeberg.org/superseriousbusiness/gotosocial/issues/3650) |
+| 在设置面板中查看实例黑/白名单 | N/A，具体参见 [Issue #3711](https://codeberg.org/superseriousbusiness/gotosocial/issues/3711) |
+| 允许在隐藏“不列出”贴文时通过链接直接访问 | N/A，具体参见 [Issue #3777](https://codeberg.org/superseriousbusiness/gotosocial/issues/3777) |
+| 邀请注册 | N/A，具体参见 [Issue #3778](https://codeberg.org/superseriousbusiness/gotosocial/issues/3778) |
 :::
 
 ::: details 暂时不会支持的功能
 
 | 功能 | 说明 |
 | --- | --- |
-| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://github.com/superseriousbusiness/gotosocial/issues/1631)，但有计划支持双因素认证，参见上方“尚未支持的功能” |
-| 跨实例交互引导 | GoToSocial 提供的网页是静态的，仅供浏览。参见 [Issue #1895](https://github.com/superseriousbusiness/gotosocial/issues/1895) |
+| 一次性验证码登录 | 与当前登录流程不适配，参见 [Issue #1631](https://codeberg.org/superseriousbusiness/gotosocial/issues/1631)，但有计划支持双因素认证，参见上方“尚未支持的功能” |
+| 跨实例交互引导 | GoToSocial 提供的网页是静态的，仅供浏览。参见 [Issue #1895](https://codeberg.org/superseriousbusiness/gotosocial/issues/1895) |
 :::
 
 ## 开发资源
@@ -237,11 +237,11 @@ GoToSocial 通过 Swagger 提供 OpenAPI v2文档，可以在 [https://docs.goto
 :::
 
 ::: details 贡献指引
-GoToSocial 的贡献指引可以[在此](https://github.com/superseriousbusiness/gotosocial/blob/main/docs/locales/zh/repo/CONTRIBUTING.md)查看。
+GoToSocial 的贡献指引可以[在此](https://codeberg.org/superseriousbusiness/gotosocial/src/branch/main/docs/locales/zh/repo/CONTRIBUTING.md)查看。
 :::
 
 ::: details GoToSocial 源代码
 Owu Social 目前使用与 GoToSocial 上游一致的源代码。GoToSocial 的源代码托管在 GitHub 上，可以通过以下链接查看：
 
-[https://github.com/superseriousbusiness/gotosocial](https://github.com/superseriousbusiness/gotosocial)
+[https://codeberg.org/superseriousbusiness/gotosocial](https://codeberg.org/superseriousbusiness/gotosocial)
 :::[]
