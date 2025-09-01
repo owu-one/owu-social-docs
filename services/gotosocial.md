@@ -147,7 +147,7 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 | [Letterbook](https://github.com/Letterbook/Letterbook) | ❓ |  | ❓ |
 | [Magnetar](https://git.astolfo.cool/natty/magnetar) | ❓ |  | ❓ |
 | [Mbin](https://github.com/MbinOrg/mbin) ([Kbin](https://github.com/ernestwisniewski/kbin) 已经停止维护) [📋](https://mbin.fediverse.observer/list) | ✅ |  | [user](https://moist.catsweat.com/u/originalucifer), [magazine](https://moist.catsweat.com/m/japan) |
-| [micro.blog](https://micro.blog) [📋](https://microdotblog.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@manton@manton.org](manton.org) |
+| [micro.blog](https://micro.blog) [📋](https://microdotblog.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@manton@manton.org](https://manton.org) |
 | [NeoDB](https://github.com/neodb-social/neodb) [📋](https://neodb.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@igorette@neodb.kevga.de](https://neodb.kevga.de/users/igorette) |
 | [NodeBB](https://github.com/NodeBB/NodeBB) [📋](https://nodebb.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | https://wanderingadventure.party/user/kichae |
 | [PeerTube](https://github.com/Chocobozzz/PeerTube) [📋](https://peertube.fediverse.observer/list) | ⚠️ |  [PeerTube #6462](https://github.com/Chocobozzz/PeerTube/issues/6462) | [@it@peervideo.ru](https://peervideo.ru/c/it) |
