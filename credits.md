@@ -13,7 +13,7 @@ description: Owu Social 食用说明的参考内容。
 - [Mastodon 官方文档](https://docs.joinmastodon.org/)
 - [喵窝资料室](https://docs.nya.one/)
 - [Misskey食用指南](https://eat-misskey.github.io/)
-- [GoToSocial Federation Status](https://codeberg.org/SadmL/gotosocial-federation-status)
+- [GoToSocial Federation Status](https://codeberg.org/L1nk/gotosocial-federation-status)
 - [IFTAS Connect 管理员社区统一术语表](https://github.com/iftas-org/lote)
 - [Sharkey: IMPORTANT_NOTES.md](https://activitypub.software/TransFem-org/Sharkey/-/blob/stable/IMPORTANT_NOTES.md)
 

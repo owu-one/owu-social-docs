@@ -3,7 +3,7 @@ title: Owu Write
 description: Owu Write 是 Owu Social 的附属Writefreely实例。
 ---
 
-# Owu Write
+# Owu Write <Badge text="主要服务" type="info" />
 
 ## 地址
 

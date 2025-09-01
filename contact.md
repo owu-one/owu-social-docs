@@ -18,10 +18,7 @@ description: 联系Owu Social
 | Owu Write | 请在 Matrix 房间 `#owu-write:mtx.owu.one` 反馈 |
 | Owu Board | `/u/admin` |
 | OwKey | [@admin@msk.owu.one](https://msk.owu.one/@admin) |
-| Owkkoma | [@admin@akm.owu.one](https://akm.owu.one/@admin) |
 | Owu Concurrent | [con1hw7yfxqhcf8tdkny3x2fyn0dny45g6pdnz8rwn](https://concrnt.world/con1hw7yfxqhcf8tdkny3x2fyn0dny45g6pdnz8rwn) |
-| Owu Friendica | [@admin@scf.owu.one](https://scf.owu.one/@admin) |
-| Owu CloudMusic | 请在 `#owu-music:mtx.owu.one` 反馈 |
 | MastOwuDon | [@admin@mstdn.owu.one](https://mstdn.owu.one/@admin) |
 | OwuTube | [@root@tube.owu.one](https://tube.owu.one/@root) |
 

@@ -18,12 +18,9 @@ description: Owu Social 的服务状态
 | Owu Write | ![服务状态](https://status.owu.one/api/badge/60/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/60/uptime/168?style=for-the-badge) |
 | Owu Board | ![服务状态](https://status.owu.one/api/badge/21/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/21/uptime/168?style=for-the-badge) |
 | OwKey | ![服务状态](https://status.owu.one/api/badge/40/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/40/uptime/168?style=for-the-badge) |
-| Owkkoma | ![服务状态](https://status.owu.one/api/badge/19/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/19/uptime/168?style=for-the-badge) |
 | Owu Bsky | 暂无监测 |
 | Owu Concurrent | ![服务状态](https://status.owu.one/api/badge/51/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/51/uptime/168?style=for-the-badge) |
 | Owu Concurrent WebUI | ![服务状态](https://status.owu.one/api/badge/51/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/51/uptime/168?style=for-the-badge) |
-| Owu Friendica | ![服务状态](https://status.owu.one/api/badge/48/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/48/uptime/168?style=for-the-badge) |
-| Owu CloudMusic | ![服务状态](https://status.owu.one/api/badge/54/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/54/uptime/168?style=for-the-badge) |
 | MastOwuDon | ![服务状态](https://status.owu.one/api/badge/37/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/37/uptime/168?style=for-the-badge) |
 | Owu Tube | ![服务状态](https://status.owu.one/api/badge/58/status?style=for-the-badge) | ![在线率](https://status.owu.one/api/badge/58/uptime/168?style=for-the-badge) |
 

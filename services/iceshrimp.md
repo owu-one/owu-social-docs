@@ -3,7 +3,7 @@ title: Owu.Iceshrimp
 description: Owu.Iceshrimp 是 Owu One! 运营的 Iceshrimp.NET 实例。
 ---
 
-# Owu.Iceshrimp
+# Owu.Iceshrimp <Badge text="主要服务" type="info" />
 
 ## 地址
 

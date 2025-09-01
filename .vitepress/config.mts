@@ -68,10 +68,11 @@ export default defineConfig({
           { text: 'Owu Social-G', link: '/services/gotosocial' },
           { text: 'Owu.Iceshrimp', link: '/services/iceshrimp' },
           { text: 'Owu Social-M', link: '/services/mitra' },
+          { text: 'Owu Chat-X', link: '/services/xmpp' },
           { text: 'Owu Chat-M', link: '/services/matrix' },
           { text: 'Owu Write', link: '/services/write' },
+          { text: 'Owu Bsky', link: '/services/bsky' },
           { text: 'Owu Board', link: '/services/lemmy' },
-          { text: 'OwKey', link: '/services/misskey' }
         ]
       },
       {
@@ -93,12 +94,9 @@ export default defineConfig({
         text: '附属服务',
         collapsed: true,
         items: [
-          { text: 'Owkkoma', link: '/services/akkoma' },
-          { text: 'Owu Bsky', link: '/services/bsky' },
-          { text: 'Owu Concurrent', link: '/services/concurrent' },
-          { text: 'Owu Friendica', link: '/services/friendica' },
+          { text: 'OwKey', link: '/services/misskey' },
           { text: 'MastOwuDon', link: '/services/mastodon' },
-          { text: 'Owu Chat-X', link: '/services/xmpp' },
+          { text: 'Owu Concurrent', link: '/services/concurrent' },
           { text: 'OwuTube', link: '/services/peertube' },
         ]
       },

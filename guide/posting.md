@@ -99,7 +99,7 @@ Owu Social 的各个软件对上述格式的支持程度如下：
 
 ::: details MFM - 对 Markdown 的扩展
 
-如果你使用 Pleroma系（如[Owkkoma](https://akm.owu.one)）或 Misskey系（如[OwKey](https://msk.owu.one)），那么在标准 Markdown 语法外你还可以使用一些扩展语法：
+如果你使用 Pleroma系或 Misskey系（如[OwKey](https://msk.owu.one)），那么在标准 Markdown 语法外你还可以使用一些扩展语法：
 
 * 待补充。
 

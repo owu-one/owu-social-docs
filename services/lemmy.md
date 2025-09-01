@@ -3,7 +3,7 @@ title: Owu Board
 description: Owu One! 运营的 Lemmy 实例
 ---
 
-# Owu Board
+# Owu Board <Badge text="主要服务" type="info" />
 
 Owu Board 是 Owu One! 运营的中文 Lemmy 实例。
 

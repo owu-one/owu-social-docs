@@ -3,11 +3,7 @@ title: Owu Chat-X
 description: Owu Chat-X 是 Owu One! 运营的 XMPP 实例。
 ---
 
-# Owu Chat-X
-
-::: info 附属服务维护说明
-由于时间和成本限制，我们目前首先保证此服务正常运行，内容/外观/功能改进计划可能实装得较为缓慢。你应该自行导入或以其它方式设法自行发现内容，构建自己的信息流。并主动向管理员提出功能请求以获取该功能的具体实装计划。
-:::
+# Owu Chat-X <Badge text="主要服务" type="info" />
 
 <a href='https://compliance.conversations.im/server/xmpp.owu.one'><img src='https://compliance.conversations.im/badge/xmpp.owu.one'></a>
 

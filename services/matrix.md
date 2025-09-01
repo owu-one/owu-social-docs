@@ -3,7 +3,7 @@ title: Owu Chat-M
 description: Owu Chat-M 是 Owu One! 运营的Matrix实例。
 ---
 
-# Owu Chat-M
+# Owu Chat-M <Badge text="主要服务" type="info" />
 
 Owu Chat-M 是 Owu One! 运营的 Matrix 实例。支持 Sliding Sync，可以使用 Element X 等下一代 Matrix 客户端。
 

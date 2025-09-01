@@ -3,7 +3,7 @@ title: Owu Social-M
 description: Owu Social-M 是 Owu One! 运营的 Mitra 实例。
 ---
 
-# Owu Social-M
+# Owu Social-M <Badge text="主要服务" type="info" />
 
 ## 地址
 
