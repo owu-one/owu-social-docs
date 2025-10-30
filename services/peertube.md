@@ -17,7 +17,7 @@ description: Owu Tube 是 Owu One! 运营的 PeerTube 实例。
 
 Owu Tube 是 Owu One! 运营的 PeerTube 实例。
 
-PeerTube 是为联邦宇宙打造的视频平台，可以理解为 YouTube 的 Fediverse 版本。
+[PeerTube](https://joinpeertube.org/) 是为联邦宇宙打造的视频平台，可以理解为 YouTube 的 Fediverse 版本。
 
 ## 注册
 

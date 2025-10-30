@@ -30,12 +30,11 @@ description: 如何登录 Owu Social，以及推荐的客户端应用。
 我们提供以下网页客户端:
 
 - [Phanpy](https://phanpy.owu.one) <Badge text="推荐" type="info" />
+- [PL-FE](https://plfe.owu.one) <Badge text="推荐" type="info" />
 - [Elk](https://elk.owu.one)
 - [Mastodon FE](https://masto-fe.owu.one) (Mastodon独立前端)
-- [PL-FE](https://plfe.owu.one)
 - [Enafore](https://enafore.owu.one)
 - [Mangane](https://mangane.owu.one)
-- [Soapbox](https://soapbox.owu.one)
 
 此外还有以下第三方网页客户端:
 - [Semaphore](https://semaphore.social/)
@@ -44,7 +43,7 @@ description: 如何登录 Owu Social，以及推荐的客户端应用。
 ### Android
 
 - [Moshidon](https://github.com/LucasGGamerM/moshidon/releases/latest) <Badge text="推荐" type="info" />
-- [Tusky](https://tusky.app/)
+- [Pachli](https://pachli.app/) / [Tusky](https://tusky.app/)
 - [Fread](https://play.google.com/store/apps/details?id=com.zhangke.fread) <Badge text="闭源" type="info" />
 
 ### iOS / macOS / iPadOS

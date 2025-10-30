@@ -22,10 +22,10 @@ Owu Social 提供的大多数联邦宇宙服务没有算法推荐，你在你自
 因为平台不兼容，从旧有社交网络（如Twitter）完整迁移并不现实。你可以逐步迁移：先关注部分账户 -> 在Fediverse发布内容 -> 减少旧社交网络的使用 -> 选择性离开旧平台。
 
 - **Twitter/X**: 由于 Twitter 停用了免费版 API，绝大多数自动化导入工具已经失效。可以尝试通过以下几种方法手动发现推友在 Fediverse 的账号。
-  - 进入你的关注列表，检查你关注的人的昵称和账户简洁是否包含`@username@instance.domain`或`https://instance.domain/@username` / `https://instance.domain/users/username` 这样格式的用户名。如果有，你可以复制对应的用户名或链接，使用你喜欢的客户端在 Owu Social 进行搜索。
+  - 进入你的关注列表，检查你关注的人的昵称和账户简介是否包含`@username@instance.domain`或`https://instance.domain/@username` / `https://instance.domain/users/username` 这样格式的用户名。如果有，你可以复制对应的用户名或链接，使用你喜欢的客户端在 Owu Social 进行搜索。
   - 一些人可能只会在置顶推文或最近一条推文公布他们在新平台的账号，你可以尝试打开你较为关注的人的主页，看看他们有没有在置顶推文中公布自己的新账号。
-  - 如果你只需要单项
-- **BlueSky**: BlueSky 与联邦宇宙的互联性主要通过 Bridgy Fed 项目实现，你可以尝试打开你关注的人的主页，看他们有没有在账号简介、置顶帖文中包含`@<bluesky用户名>@bsky.brid.gy`格式的账户，如果有，就可以复制对应的用户名，在 Owu Social 搜索并关注。你也可以直接在Owu Social搜索`@<bluesky用户名>@bsky.brid.gy`，看看是否会有结果出现。
+  - 如果你只需要单向关注在 Twitter/X 上的用户，你可以尝试 [bird.makeup](https://bird.makeup) 等网站提供的镜像服务。例如，如果你希望关注推特用户 `@username`，可以尝试在你使用的客户端搜索 `@username@bird.makeup`。注意 bird.makeup 并不保证可用性和稳定性。
+- **BlueSky**: BlueSky 与联邦宇宙的互联性主要通过 [Bridgy Fed](https://fed.brid.gy) 项目实现，你可以尝试打开你关注的人的主页，看他们有没有在账号简介、置顶帖文中包含`@<bluesky用户名>@bsky.brid.gy`格式的账户，如果有，就可以复制对应的用户名，在 Owu Social 搜索并关注。你也可以直接在Owu Social搜索 `@<bluesky用户名>@bsky.brid.gy`，看看是否会有结果出现。
 - **Fediverse**: 一般而言，大多数 Fediverse 平台都实现了数据导出/导入支持，你可以登录旧有 Fediverse 站点的设置面板，查找数据导入/导入部分的设置，并完成对应的操作。Owu Social 在 [导出与导入](/guide/migration.md) 中介绍了一些常见的情况和方法。
 :::
 

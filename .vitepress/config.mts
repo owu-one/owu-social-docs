@@ -29,6 +29,10 @@ export default defineConfig({
     logo: "/favicon.svg",
     siteTitle: false,
     nav: [
+      {
+        text: '私有托管',
+        link: 'https://piko.day'
+      },
       { text: '服务状态',
         link: 'https://status.owu.one'
       }

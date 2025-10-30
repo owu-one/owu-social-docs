@@ -49,8 +49,8 @@ GoToSocial 的网页仅用于展示，没有可操作功能。你可以自由选
 
 ::: details Android
 
-- [Moshidon](https://github.com/LucasGGamerM/moshidon/releases/latest) <Badge text="推荐" type="info" />
-- [Tusky](https://tusky.app/)
+- [Moshidon](https://github.com/LucasGGamerM/moshidon/releases/latest)
+- [Pachli](https://pachli.app/) / [Tusky](https://tusky.app/)
 - [Fread](https://github.com/0xZhangKe/Fread/releases/latest)
 
 :::
@@ -90,8 +90,8 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 
 - **用户名**：`@gpt@scg.owu.one`
 - **服务**：在发帖时提及此bot，即可调用GPT，与大模型对话。
-  - 如果你是Owu Social-G用户，bot将默认使用`Gemini 2.5 Pro`回复。
-  - 对其它用户，bot将默认使用`Gemini 2.5 Flash`回复。
+  - 如果你是Owu Social-G用户，bot将默认使用 `Gemini 2.5 Pro` 回复。
+  - 对其它用户，bot将默认使用 `Gemini 2.5 Flash` 回复。
   - 最多支持回溯所在贴文串的最近6条贴文（若回溯时积累的历史消息超过5000字则终止回溯），单条贴文最多支持识别前3张图片（支持的格式: jpg, png）
 - **响应范围**： 几乎所有联邦宇宙用户
 - **注意**： 当你在贴文中主动提及GPT Bot时，你的贴文内容将会被发送到与 GPT Bot 连接的第三方（包括 OpenAI）进行处理。请注意不要在贴文中透露任何敏感信息。
@@ -114,66 +114,108 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 
 图例：
 
+- ✅ - 正常/无问题
 - ☑️ - 小问题（特定情况下有问题）
-- ⚠️ - 可发现账户，但无法关注（通常是因为对方实例未执行签名等必要安全措施）
+- ❓ - 未知/暂无可公开测试的实例
+- ⚠️ - 可发现账户，但无法关注（通常是因为对方实例未执行签名等安全措施）
 - ❌ - 无法发现账户/不可联合
 - 👻 - 软件已过时/停止更新一年或更长时间
-- 📋 - 链接到与软件相关的 [fediverse.observer](https://fediverse.observer/list) 列表
+- 📋 - 链接到与软件相关的 fediverse.observer 列表
 
 | 软件 | 联合情况 | 问题 | 测试的实例/账户（如果有）与备注 |
 | --- | --- | --- | --- |
-| [Misskey](https://misskey-hub.net/) [📋](https://misskey.fediverse.observer/list) / [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ✅ |  | |
+| [Mastodon](https://github.com/mastodon/mastodon) [📋](https://mastodon.fediverse.observer/list) | ✅ |  |  |
+| 较流行的 Mastodon 分支 |  |  |  |
+| [Chuckya](https://github.com/TheEssem/mastodon) [📋](https://mastodon.fediverse.observer/list) | ✅ |  |  |
+| [Ecko](https://github.com/magicstone-dev/ecko) 👻 [📋](https://ecko.fediverse.observer/list) | ✅ |  |  |
+| [Fedibird](https://github.com/fedibird/mastodon) 👻 [📋](https://mastodon.fediverse.observer/list) | ✅ |  |  |
+| [Glitchcafe](https://github.com/pluralcafe/glitchcafe) 👻 [📋](https://glitchcafe.fediverse.observer/list) | ✅ |  |  |
+| [Glitch-soc](https://github.com/glitch-soc/mastodon) | ✅ |  |  |
+| [Hometown](https://github.com/hometown-fork/hometown) [📋](https://hometown.fediverse.observer/list) | ✅ |  |  |
+| ========== |  |  |  |
+| [Misskey](https://github.com/misskey-dev/misskey) [📋](https://misskey.fediverse.observer/list) | ✅ |  |  |
+| 较流行的 Misskey 分支 |  |  |  |
+| [CherryPick](https://github.com/kokonect-link/cherrypick) [📋](https://cherrypick.fediverse.observer/list) | ✅ |  |  |
+| [Firefish](https://codeberg.org/firefish/firefish) 👻 [📋](https://firefish.fediverse.observer/list) 👻 | ✅ |  |  |
+| [Foundkey](https://akkoma.dev/FoundKeyGang/FoundKey) [📋](https://foundkey.fediverse.observer/list) | ✅ |  |  |
+| [Iceshrimp](https://iceshrimp.dev/iceshrimp/iceshrimp) [📋](https://iceshrimp.fediverse.observer/list) + [Iceshrimp.NET](https://iceshrimp.dev/iceshrimp/iceshrimp.net) [📋](https://iceshrimpnet.fediverse.observer/list) | ✅ |  |  |
+| [Sharkey](https://activitypub.software/TransFem-org/Sharkey) [📋](https://sharkey.fediverse.observer/list) | ✅ |  |  |
+| ========== |  |  |  |
 | [Betula](https://sr.ht/~bouncepaw/betula) [📋](https://betula.fediverse.observer/list) | ❌ |  | [@danila@links.danilax86.space](https://links.danilax86.space/@danila) |
 | [Bridgy Fed](https://fed.brid.gy/) | ✅ |  |  |
 | [Bonfire](https://github.com/bonfire-networks) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | https://hiti.nairatmya.org/@mossbeard |
+| [Bookwyrm](https://github.com/bookwyrm-social/bookwyrm) [📋](https://bookwyrm.fediverse.observer/list) | ✅ |  | [@jussi@books.duck.cafe](https://books.duck.cafe/user/jussi) |
 | [Bovine](https://codeberg.org/bovine/bovine) 👻 | ⚠️ |  | @moocow@bovine.fly.dev |
 | [Brutalinks](https://git.sr.ht/~mariusor/brutalinks) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@marius@brutalinks.tech](https://brutalinks.tech/~marius) |
 | [Bugle](https://github.com/rknightuk/bugle) [📋](https://bugle.fediverse.observer/list) | ❌ |  | [@zobot@bugle.lol](https://bugle.lol/@zobot) |
-| [Castopod](https://code.castopod.org/adaures/castopod) | ✅ | [Castopod Gitlab #364](https://code.castopod.org/adaures/castopod/-/issues/364) | https://podcast.james.network/@linuxprepper |
+| [Castopod](https://code.castopod.org/adaures/castopod) | ✅ | [Castopod #364](https://code.castopod.org/adaures/castopod/-/issues/364) | https://podcast.james.network/@linuxprepper |
 | [Dokieli](https://github.com/linkeddata/dokieli) | ❓ |  | ❓ |
 | [Emissary](https://github.com/EmissarySocial/emissary) [📋](https://emissary.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | https://bandwagon.fm/@FastGhost |
 | [Epicyon](https://gitlab.com/bashrc2/epicyon) | ❓ |  | ❓ |
 | [Forgejo](https://codeberg.org/forgejo/forgejo) [📋](https://forgejo.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@K0RR@git.sakamoto.pl](https://git.sakamoto.pl/K0RR) |
 | [Funkwhale](https://dev.funkwhale.audio/funkwhale/funkwhale) [📋](https://funkwhale.fediverse.observer/list) | ❌ |  | https://audio.pepemoss.com/@earl |
-| [Friendica](https://github.com/friendica/friendica) [📋](https://friendica.fediverse.observer/list) | ☑️ | [Friendica #14316](https://github.com/friendica/friendica/issues/14316)  | https://entropysource.ru/profile/hubbitant |
-| [Guppe](https://a.gup.pe) 👻 | ⚠️ | [Guppe #90](https://github.com/immers-space/guppe/issues/90) | `@board@a.gup.pe`<br/>注：Guppe使用的HTTP签名库较老，无法识别 Owu Social-G 的 Activity 签名。 |
-| [Juick](https://x.juick.com/Juick) | ⚠️ | [Issue #3268](https://codeberg.org/superseriousbusiness/gotosocial/issues/3268), [PR #3928](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3928)  | [@Linda-chan@juick.com](https://juick.com/Linda-chan) |
+| [Friendica](https://github.com/friendica/friendica) [📋](https://friendica.fediverse.observer/list) | ☑️ | [Friendica #14316](https://github.com/friendica/friendica/issues/14316) | https://entropysource.ru/profile/hubbitant |
+| [Gancio](https://github.com/lesion/gancio) [📋](https://gancio.fediverse.observer/list) | ✅ |  |  |
+| [GNU Social](https://notabug.org/diogo/gnu-social) 👻 [📋](https://gnusocial.fediverse.observer/list) | ✅ |  |  |
+| [Goblin](https://github.com/johnHackworth/goblin) [📋](https://goblin.fediverse.observer/list) | ✅ |  | https://goblin.band/@goblin |
+| [GoToSocial](https://codeberg.org/superseriousbusiness/gotosocial) [📋](https://gotosocial.fediverse.observer/list) | ✅ |  | https://gts.superseriousbusiness.org/@gotosocial |
+| [gush](https://codeberg.org/gush/gush) [📋](https://gush.fediverse.observer/list) | ✅ |  | https://gush.taks.garden/poster/Tak |
+| [Hollo](https://github.com/dahlia/hollo) [📋](https://hollo.fediverse.observer/list) | ✅ |  | https://hollo.social/@hollo |
+| [Honk](https://humungus.tedunangst.com/r/honk) [📋](https://honk.fediverse.observer/list) | ✅ |  | https://h.icyphox.sh/@icy |
+| [Hubzilla](https://framagit.org/hubzilla) [📋](https://hubzilla.fediverse.observer/list) | ✅ |  |  |
+| [Juick](https://x.juick.com/Juick) | ⚠️ | [Issue #3268](https://codeberg.org/superseriousbusiness/gotosocial/issues/3268), [PR #3928](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3928) | [@Linda-chan@juick.com](https://juick.com/Linda-chan) |
 | [Kepi](https://gitlab.com/marnanel/chapeau) 👻 [📋](https://kepi.fediverse.observer/list) | ❓ |  | ❓ |
 | [Kitsune](https://github.com/kitsune-soc/kitsune) | ❓ |  | ❓ |
 | [Klaxon](https://github.com/curt/klaxon) [📋](https://klaxon.fediverse.observer/list) | ✅ |  | https://pompatus.af7kq.net |
-| [Ktistec](https://github.com/toddsundsted/ktistec) [📋](https://ktistec.fediverse.observer/list) | ✅ | [Ktistec #103](https://github.com/toddsundsted/ktistec/issues/103), [Issue #2991](https://codeberg.org/superseriousbusiness/gotosocial/issues/2991)  | https://soc.computermouth.com/@ben |
+| [Ktistec](https://github.com/toddsundsted/ktistec) [📋](https://ktistec.fediverse.observer/list) | ✅ | [Ktistec #103](https://github.com/toddsundsted/ktistec/issues/103), [Issue #2991](https://codeberg.org/superseriousbusiness/gotosocial/issues/2991) | https://soc.computermouth.com/@ben |
 | [Kroeg](https://puck.moe/git/kroeg) 👻 [📋](https://kroeg.fediverse.observer/list) | ⚠️ |  | https://puckipedia.com/ |
-| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ✅ | [Lemmy #2697](https://codeberg.org/superseriousbusiness/gotosocial/issues/2697), [Lemmy 侧的 GTS 相关 Issue](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial)。如果某个 Lemmy 实例仍有问题，可访问该实例的 `/api/v[0-9]/site` 确认其是否启用了签名(auth fetch) | [用户](https://chachara.club/u/Sacronte), [社群](https://chachara.club/c/naturalezaycambioclimatico) |
+| [Lemmy](https://github.com/LemmyNet/lemmy) [📋](https://lemmy.fediverse.observer/list) | ✅ | [Issue #2697](https://codeberg.org/superseriousbusiness/gotosocial/issues/2697)，[Lemmy 存储库中所有与 GtS 相关的 issue](https://github.com/LemmyNet/lemmy/issues?q=is%3Aissue+gotosocial)。如果某个 Lemmy 实例仍有问题，可访问该实例的 `/api/v[0-9]/site` 确认其是否启用了签名(auth fetch) | [用户](https://chachara.club/u/Sacronte)，[社群](https://chachara.club/c/naturalezaycambioclimatico) |
 | [Letterbook](https://github.com/Letterbook/Letterbook) | ❓ |  | ❓ |
 | [Magnetar](https://git.astolfo.cool/natty/magnetar) | ❓ |  | ❓ |
-| [Mbin](https://github.com/MbinOrg/mbin) ([Kbin](https://github.com/ernestwisniewski/kbin) 已经停止维护) [📋](https://mbin.fediverse.observer/list) | ✅ |  | [user](https://moist.catsweat.com/u/originalucifer), [magazine](https://moist.catsweat.com/m/japan) |
+| [Manyfold](https://github.com/manyfold3d/manyfold) [📋](https://manyfold.fediverse.observer/list) | ⚠️ |  | [@sascha@3d.bonn.digital](https://3d.bonn.digital/creators/sascha) |
+| [Mbin](https://github.com/MbinOrg/mbin)（[Kbin](https://github.com/ernestwisniewski/kbin) 已停止维护） [📋](https://mbin.fediverse.observer/list) | ✅ |  | [user](https://moist.catsweat.com/u/originalucifer)，[magazine](https://moist.catsweat.com/m/japan) |
+| [microblog.pub](https://git.sr.ht/~tsileo/microblog.pub) 👻 [📋](https://microblogpub.fediverse.observer/list) | ✅ |  | [@josh@heretic.li](https://heretic.li) |
 | [micro.blog](https://micro.blog) [📋](https://microdotblog.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@manton@manton.org](https://manton.org) |
+| [Mitra](https://codeberg.org/silverpill/mitra) [📋](https://mitra.fediverse.observer/list) | ✅ |  | https://mochi.mochikov.ski/@mochi |
+| [Mobilizon](https://framagit.org/framasoft/mobilizon) [📋](https://mobilizon.fediverse.observer/list) | ✅ |  |  |
 | [NeoDB](https://github.com/neodb-social/neodb) [📋](https://neodb.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@igorette@neodb.kevga.de](https://neodb.kevga.de/users/igorette) |
 | [NodeBB](https://github.com/NodeBB/NodeBB) [📋](https://nodebb.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | https://wanderingadventure.party/user/kichae |
-| [PeerTube](https://github.com/Chocobozzz/PeerTube) [📋](https://peertube.fediverse.observer/list) | ⚠️ |  [PeerTube #6462](https://github.com/Chocobozzz/PeerTube/issues/6462) | [@it@peervideo.ru](https://peervideo.ru/c/it) |
-| [Piefed](https://codeberg.org/rimu/pyfedi) [📋](https://piefed.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [user](https://piefed.social/u/Jerry), [community](https://piefed.social/c/piefed_meta) |
+| [OCamlot](https://github.com/kiranandcode/ocamlot) 👻 [📋](https://ocamlot.fediverse.observer/list) | ✅ |  | https://ocamlot.xyz/users/gopiandcode |
+| [PeerTube](https://github.com/Chocobozzz/PeerTube) [📋](https://peertube.fediverse.observer/list) | ⚠️ | [PeerTube #6462](https://github.com/Chocobozzz/PeerTube/issues/6462) | [@it@peervideo.ru](https://peervideo.ru/c/it) |
+| [Piefed](https://codeberg.org/rimu/pyfedi) [📋](https://piefed.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [user](https://piefed.social/u/Jerry)，[community](https://piefed.social/c/piefed_meta) |
+| [Pixelfed](https://github.com/pixelfed/pixelfed) [📋](https://pixelfed.fediverse.observer/list) | ✅ |  |  |
+| ========== |  |  |  |
+| [Pleroma](https://git.pleroma.social/pleroma) [📋](https://pleroma.fediverse.observer/list) | ✅ |  |  |
+| Pleroma 分支 |  |  |  |
+| [Akkoma](https://akkoma.dev/AkkomaGang/akkoma) [📋](https://akkoma.fediverse.observer/list) | ✅ |  |  |
 | [Rebased](https://gitlab.com/soapbox-pub/rebased) | ❓ |  | ❓ |
-|  |
+| ========== |  |  |  |
 | [Plume](https://github.com/Plume-org/Plume) [📋](https://plume.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@paradoxal@zone.paradoxal.netlib.re](https://zone.paradoxal.netlib.re/@/paradoxal) |
-| [Seppo](https://codeberg.org/seppo/seppo) | ❌ | [Issue #2961](https://codeberg.org/superseriousbusiness/gotosocial/issues/2961#issue-2333014325), [Issue #1186](https://codeberg.org/superseriousbusiness/gotosocial/issues/1186) | https://seppo.social/aseppototry/o/p/ |
+| [upub](https://moonlit.technology/alemi/upub) | ✅ |  | https://dev.upub.social/web/actors/alemi |
+| [Seppo](https://codeberg.org/seppo/seppo) | ❌ | [Issue #2961](https://codeberg.org/superseriousbusiness/gotosocial/issues/2961#issue-2333014325)，[Issue #1186](https://codeberg.org/superseriousbusiness/gotosocial/issues/1186) | https://seppo.social/aseppototry/o/p/ |
+| [Socialhome](https://github.com/jaywink/socialhome) [📋](https://socialhome.fediverse.observer/list) | ✅ |  | [@delcake@delcake.com](https://delcake.com) |
 | [Shuttlecraft](https://github.com/benbrown/shuttlecraft) 👻 [📋](https://shuttlecraft.fediverse.observer/list) | ❌ |  | https://cerritos.glitch.me |
+| [Smithereen](https://github.com/grishka/Smithereen) [📋](https://smithereen.fediverse.observer/list) | ✅ | （自 0.17.0 起）[Smithereen #77](https://github.com/grishka/Smithereen/issues/77)，[PR #3243](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3243) | https://friends.grishka.me/grishka |
+| [snac](https://codeberg.org/grunfink/snac2) [📋](https://snac.fediverse.observer/list) | ✅ |  | https://snac.122.hu/kitten |
+| [Streams](https://codeberg.org/streams/streams) | ✅ |  | https://fediversity.site/channel/streams |
 | [Swanye](https://codeberg.org/WammKD/Swanye) 👻 | ❓ |  |  |
-| [Takahē](https://github.com/jointakahe/takahe) [📋](https://takahe.fediverse.observer/list) | ✅ | [Takahe #223](https://github.com/jointakahe/takahe/issues/223), [Takahe #528](https://github.com/jointakahe/takahe/issues/528) | [@calvin@alpha.incarnator.org](https://alpha.incarnator.org/@calvin@alpha.incarnator.org) |
+| [Takahē](https://github.com/jointakahe/takahe) [📋](https://takahe.fediverse.observer/list) | ✅ | [Takahe #223](https://github.com/jointakahe/takahe/issues/223)，[Takahe #528](https://github.com/jointakahe/takahe/issues/528) | [@calvin@alpha.incarnator.org](https://alpha.incarnator.org/@calvin@alpha.incarnator.org) |
 | [Tapir](https://github.com/ar-nelson/tapir) 👻 | ❓ |  | ❓ |
 | [Threads](https://threads.net) | ❌ | [Issue #2491](https://codeberg.org/superseriousbusiness/gotosocial/issues/2491) | Threads 并不开源，实行不透明的联合规则，且未按规范返回 ActivityPub 数据，GoToSocial 无意针对 Threads 进行特殊处理。我们赞同这种做法。 |
 | [Toki](https://github.com/purifetchi/Toki) | ❓ |  | ❓ |
 | [Vernissage](https://github.com/VernissageApp/VernissageServer) [📋](https://vernissage.fediverse.observer/list) | ✅ |  | https://vernissage.pnpde.social/@d3 |
+| [Wafrn](https://github.com/gabboman/wafrn) [📋](https://wafrn.fediverse.observer/list) | ✅ |  | https://app.wafrn.net/dashboard/exploreLocal |
 | [Writefreely](https://github.com/writefreely/writefreely) [📋](https://writefreely.fediverse.observer/list) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@baslow@read.asorrybowl.blog](https://read.asorrybowl.blog) |
-| [write.as](https://write.as) (付费版 Writefreely) | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@write-as-roscoes-story@write.as](https://write.as/write-as-roscoes-story) |
-| [Wordpress](https://github.com/WordPress/wordpress-develop) [📋](https://wordpress.fediverse.observer/list) | ✅ \ ⚠️ | 各ActivityPub插件兼容情况不同 [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) plugin |  |
-| [wxwClub](https://github.com/wxwmoe/wxwClub) | ☑️ |  | 注： 主要的wxwClub实例ovo.st与Owu Social的联合可能受到[数据保护措施](/terms/data.md)的第 4 条的影响。请咨询Owu Social-G管理员获取详情。若发现联合中断，请向管理员报告。 |
+| [write.as](https://write.as)（付费版 Writefreely） | ✅ | [PR #3978](https://codeberg.org/superseriousbusiness/gotosocial/pulls/3978) | [@write-as-roscoes-story@write.as](https://write.as/write-as-roscoes-story) |
+| [Wordpress](https://github.com/WordPress/wordpress-develop) [📋](https://wordpress.fediverse.observer/list) | ✅ \ ⚠️ | 取决于所用的 [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) 插件 |  |
+| [wxwClub](https://github.com/wxwmoe/wxwClub) | ✅ |  | https://ovo.st/club/board<br/>注：主要的 wxwClub 实例 ovo.st 与 Owu Social 的联合可能受到[数据保护措施](/terms/data.md)第 4 条的影响。请咨询 Owu Social-G 管理员获取详情。若发现联合中断，请向管理员报告。 |
 | [Yarn](https://git.mills.io/yarnsocial/yarn) | ❓ |  | ❓ |
 
 :::
 
 ## 开发计划
 
-[Owu Social-G](https://scg.owu.one) 由 [GoToSocial](https://gotosocial.org) 驱动, 这是一个年轻的社交软件 (2021年2月开始开发), 目前处于 测试(Beta)阶段, 还在活跃开发中。
+[Owu Social-G](https://scg.owu.one) 由 [GoToSocial](https://gotosocial.org) 驱动, 目前处于 测试(Beta)阶段, 还在活跃开发中。
 
 本节只列出可能对你（用户）的使用体验产生影响的功能。如果你想跟进有关功能支持的更新，还可以关注 [@admin@scg.owu.one](https://scg.owu.one/@admin) 。
 
@@ -215,6 +257,15 @@ Owu Social 维护的设置说明已经进入 GoToSocial 官方文档，你可以
 | 支持在举报时设置抄送实例列表 | N/A, 具体参见 [Issue #4243](https://codeberg.org/superseriousbusiness/gotosocial/issues/4243) |
 | 支持在收藏夹设置子文件夹整理收藏 | 预计于 v0.21.0 发布，需客户端支持对应的 Pleroma API, 具体参见 [PR #4284](https://codeberg.org/superseriousbusiness/gotosocial/pulls/4284) |
 | 在账户页展示关注按钮 | N/A，具体参见 [Issue #4299](https://codeberg.org/superseriousbusiness/gotosocial/issues/4299) |
+| 实时通知 | N/A, GoToSocial 已经支持了 Web 通知推送，这足以保证在客户端支持且工作正常时及时收到通知。这一功能是为了在打开客户端浏览时客户端能够与服务端建立流式通信并实时接收通知，这在某些情形下是更为高效的方式。具体参见 [Issue #4340](https://codeberg.org/superseriousbusiness/gotosocial/issues/4340) |
+| 在个人主页添加歌单播放器 | N/A, 参见 [Issue #4347](https://codeberg.org/superseriousbusiness/gotosocial/issues/4347) |
+| 从 Mastodon 导入收藏列表 | N/A, 参见 [Issue #4356](https://codeberg.org/superseriousbusiness/gotosocial/issues/4356)，目前可以通过命令行工具 [slurp](https://github.com/VyrCossont/slurp) 手动导入。 |
+| 使用正则表达式创建过滤规则 | N/A, 参见 [Issue #4389](https://codeberg.org/superseriousbusiness/gotosocial/issues/4389) |
+| 自助删除账户 | N/A，参见 [Issue #4429](https://codeberg.org/superseriousbusiness/gotosocial/issues/4429)。你可以随时[联系管理员](/contact.md)请求删除账户。 |
+| 在Web账户页渲染 XMPP 链接为超链接 | N/A, 参见 [Issue #4460](https://codeberg.org/superseriousbusiness/gotosocial/issues/4460) |
+| 兼容 Mastodon 风格的引用许可 | N/A, 参见 [Issue #4462](https://codeberg.org/superseriousbusiness/gotosocial/issues/4462) |
+| 随机化交互时间 | N/A，参见 [Issue #4475](https://codeberg.org/superseriousbusiness/gotosocial/issues/4475)。目前已经可以通过定时发帖来控制发帖时间。 |
+| 咬其它网友 | N/A，参见 [Issue #4508](https://codeberg.org/superseriousbusiness/gotosocial/issues/4508) |
 :::
 
 ::: details 暂时不会支持的功能

@@ -15,9 +15,9 @@ description: MastOwuDon 是 Owu One! 运营的 Mastodon 实例。
 
 ## 简介
 
-MastOwuDon 是 Owu One!! 运营的中文 Mastodon 实例。
+MastOwuDon 是 Owu One! 运营的中文 Mastodon 实例。
 
-本站由 Chuckya 驱动，因而获得了众多原版 Mastodon 不具备的特色功能。
+本站由 [Chuckya](https://github.com/TheEssem/mastodon) 驱动，因而获得了众多原版 Mastodon 不具备的特色功能。
 
 1. **支持表情回应**: 像Misskey等平台的用户发送的表情回应在Mastodon这里会通通变成星星⭐。但是在这里，你也可以在使用 Mastodon 的同时看到原本的表情回应，你还可以给别人点表情回应！
 2. **滚动更新**：不用等新功能正式发布就能抢先体验。

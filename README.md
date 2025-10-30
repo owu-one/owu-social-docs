@@ -20,4 +20,4 @@ bun docs:preview
 
 ## 完善文档
 
-参见专门的[完善文档](/contribute.md)页面。
+参见专门的[完善文档](contribute.md)页面。
